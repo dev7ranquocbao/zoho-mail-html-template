@@ -64,6 +64,11 @@ app.get("/api/get-template/:id", async (req, res) => {
   try {
     const data = await HtmlTemplateModel.findById(id).exec();
 
+    if (!data) {
+      res.status(400).json({ data: null });
+      return;
+    }
+
     const { html_body, variables } = data;
 
     let cloned = html_body;
