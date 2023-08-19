@@ -32,6 +32,10 @@ database.once("connected", () => {
   console.log("Database Connected");
 });
 
+app.get("/", () => {
+  res.status(200).send("Welcome 7!");
+});
+
 app.post("/create-template", async (_req, res) => {
   const data = new HtmlTemplateModel({
     html_body: HTMLTemplate,
