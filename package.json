@@ -1,7 +1,7 @@
 {
   "name": "zoho-mail-html-template",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "api/index.js",
   "repository": "git@github.com-dev7r4nquocbao:dev7ranquocbao/zoho-mail-html-template.git",
   "author": "dev7r4nquocbao",
   "license": "MIT",
@@ -14,7 +14,7 @@
   },
   "type": "module",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon api/index.js"
   },
   "engines": {
     "node": "18.x"

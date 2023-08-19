@@ -1,9 +1,9 @@
 import dotenv from "dotenv";
 import express from "express";
 import bodyParser from "body-parser";
-import HtmlTemplateModel from "./schemas/html-templates.js";
-import database from "./mongodb.js";
-import { HTMLTemplate } from "./constants.js";
+import HtmlTemplateModel from "../schemas/html-templates.js";
+import database from "../mongodb.js";
+import { HTMLTemplate } from "../constants.js";
 
 dotenv.config();
 
