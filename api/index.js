@@ -32,11 +32,11 @@ database.once("connected", () => {
   console.log("Database Connected");
 });
 
-app.get("/", () => {
+app.get("/api", (req, res) => {
   res.status(200).send("Welcome 7!");
 });
 
-app.post("/create-template", async (_req, res) => {
+app.get("/api/create-template", async (_req, res) => {
   const data = new HtmlTemplateModel({
     html_body: HTMLTemplate,
     variables: [
@@ -57,7 +57,7 @@ app.post("/create-template", async (_req, res) => {
   }
 });
 
-app.get("/get-template/:id", async (req, res) => {
+app.get("/api/get-template/:id", async (req, res) => {
   const id = req.params.id;
   const query = req.query;
 
