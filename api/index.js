@@ -4,6 +4,7 @@ import bodyParser from "body-parser";
 // import HtmlTemplateModel from "../schemas/html-templates.js";
 // import database from "../mongodb.js";
 import { HTMLTemplatev1, HTMLTemplatev2 } from "../constants.js";
+import { logRequest } from "../utils/logger.js";
 
 dotenv.config();
 
@@ -89,6 +90,7 @@ app.get("/api", (_req, res) => {
 
 app.get("/api/get-template-local/v1", async (req, res) => {
   const query = req.query;
+  logRequest(req);
 
   const variables = [
     "contact_title",
@@ -118,6 +120,7 @@ app.get("/api/get-template-local/v1", async (req, res) => {
 
 app.get("/api/get-template-local/v2", async (req, res) => {
   const query = req.query;
+  logRequest(req);
 
   const variables = [
     "contact_title",
