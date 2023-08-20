@@ -3,7 +3,7 @@ import express from "express";
 import bodyParser from "body-parser";
 import HtmlTemplateModel from "../schemas/html-templates.js";
 import database from "../mongodb.js";
-import { HTMLTemplate } from "../constants.js";
+import { HTMLTemplatev1, HTMLTemplatev2 } from "../constants.js";
 
 dotenv.config();
 
@@ -72,6 +72,64 @@ app.get("/api/get-template/:id", async (req, res) => {
     const { html_body, variables } = data;
 
     let cloned = html_body;
+
+    if (Boolean(variables.length)) {
+      variables.forEach((variable) => {
+        if (!query[variable]) return;
+
+        cloned = cloned.replaceAll(`{{${variable}}}`, query[variable]);
+      });
+    }
+
+    res.status(200).json({ data: cloned });
+  } catch (error) {
+    res.status(400).json({ message: error.message });
+  }
+});
+
+app.get("/api/get-template-local/v1", async (req, res) => {
+  const query = req.query;
+
+  const variables = [
+    "contact_title",
+    "contact_first_name",
+    "contact_full_name",
+    "company_name",
+    "contact_email",
+    "scan_qr_image",
+  ];
+
+  try {
+    let cloned = HTMLTemplatev1;
+
+    if (Boolean(variables.length)) {
+      variables.forEach((variable) => {
+        if (!query[variable]) return;
+
+        cloned = cloned.replaceAll(`{{${variable}}}`, query[variable]);
+      });
+    }
+
+    res.status(200).json({ data: cloned });
+  } catch (error) {
+    res.status(400).json({ message: error.message });
+  }
+});
+
+app.get("/api/get-template-local/v2", async (req, res) => {
+  const query = req.query;
+
+  const variables = [
+    "contact_title",
+    "contact_first_name",
+    "contact_full_name",
+    "company_name",
+    "contact_email",
+    "scan_qr_image",
+  ];
+
+  try {
+    let cloned = HTMLTemplatev2;
 
     if (Boolean(variables.length)) {
       variables.forEach((variable) => {
