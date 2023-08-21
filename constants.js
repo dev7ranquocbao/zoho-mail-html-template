@@ -53,7 +53,7 @@ https://w.ladicdn.com/s250x250/60a651b7c4ec0f001367452b/header-nepcon-2023081407
       <table
         cellpadding="1"
         cellspacing="1"
-        style="width: 600px; padding: 0px 40px"
+        style="width: 100%; padding: 0px 40px"
       >
         <tbody>
           <tr>
@@ -81,8 +81,8 @@ https://w.ladicdn.com/s250x250/60a651b7c4ec0f001367452b/header-nepcon-2023081407
                 >
               </p>
             </td>
-            <td>
-              <p style="margin-left: 45px">
+            <td style="padding-right: 80px; padding-left: 80px">
+              <p>
                 <span style="font-size: 16px">
                   <strong>
                     <img
@@ -230,7 +230,7 @@ style="width: 700px"
       <table
         cellpadding="1"
         cellspacing="1"
-        style="width: 600px; padding: 0px 40px"
+        style="width: 100%; padding: 0px 40px"
       >
         <tbody>
           <tr>
@@ -260,8 +260,8 @@ style="width: 700px"
                 >
               </p>
             </td>
-            <td>
-              <p style="margin-left: 45px">
+            <td style="padding-right: 80px; padding-left: 80px">
+              <p>
                 <span style="font-size: 16px">
                   <strong>
                     <img
