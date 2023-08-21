@@ -1,4 +1,4 @@
-export const HTMLTemplatev1 = `<table
+export const HTMLTemplateV1 = `<table
 align="center"
 border="1"
 cellpadding="1"
@@ -159,7 +159,7 @@ https://w.ladicdn.com/s250x250/60a651b7c4ec0f001367452b/footer-nepcon-2023081407
 </table>
 `;
 
-export const HTMLTemplatev2 = `<table
+export const HTMLTemplateV2 = `<table
 align="center"
 border="1"
 cellpadding="1"
