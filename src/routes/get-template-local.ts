@@ -1,13 +1,13 @@
-import express from "express"
-import { HTMLTemplateV1, HTMLTemplateV2 } from "../constants/html-templates"
-import { logError, logRequest } from "../utils/logger"
+import express from "express";
+import { HTMLTemplateV1, HTMLTemplateV2 } from "../constants/html-templates";
+import { logError, logRequest } from "../utils/logger";
 
-const router = express.Router()
+const router = express.Router();
 
 router.get("/v1", async (req, res) => {
     try {
-        const query = req.query
-        logRequest(req)
+        const query = req.query;
+        logRequest(req);
 
         const variables = [
             "contact_title",
@@ -16,29 +16,29 @@ router.get("/v1", async (req, res) => {
             "company_name",
             "contact_email",
             "scan_qr_image",
-        ]
+        ];
 
-        let cloned = HTMLTemplateV1
+        let cloned = HTMLTemplateV1;
 
         variables.forEach(variable => {
-            const value = query[variable]
-            if (typeof value !== "string") return
+            const value = query[variable];
+            if (typeof value !== "string") return;
 
-            const regex = new RegExp(`{{${variable}}}`, "g")
-            cloned = cloned.replace(regex, value)
-        })
+            const regex = new RegExp(`{{${variable}}}`, "g");
+            cloned = cloned.replace(regex, value);
+        });
 
-        res.status(200).json({ data: cloned })
+        res.status(200).json({ data: cloned });
     } catch (error) {
-        logError(error)
-        res.status(400).json({ message: error, request: req.originalUrl })
+        logError(error);
+        res.status(400).json({ message: error });
     }
-})
+});
 
 router.get("/v2", async (req, res) => {
     try {
-        const query = req.query
-        logRequest(req)
+        const query = req.query;
+        logRequest(req);
 
         const variables = [
             "contact_title",
@@ -47,23 +47,23 @@ router.get("/v2", async (req, res) => {
             "company_name",
             "contact_email",
             "scan_qr_image",
-        ]
+        ];
 
-        let cloned = HTMLTemplateV2
+        let cloned = HTMLTemplateV2;
 
         variables.forEach(variable => {
-            const value = query[variable]
-            if (typeof value !== "string") return
+            const value = query[variable];
+            if (typeof value !== "string") return;
 
-            const regex = new RegExp(`{{${variable}}}`, "g")
-            cloned = cloned.replace(regex, value)
-        })
+            const regex = new RegExp(`{{${variable}}}`, "g");
+            cloned = cloned.replace(regex, value);
+        });
 
-        res.status(200).json({ data: cloned })
+        res.status(200).json({ data: cloned });
     } catch (error) {
-        logError(error)
-        res.status(400).json({ message: JSON.stringify(error) })
+        logError(error);
+        res.status(400).json({ message: error });
     }
-})
+});
 
-export default router
+export default router;
