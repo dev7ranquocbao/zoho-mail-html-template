@@ -1,8 +1,9 @@
 import dotenv from "dotenv";
 import express from "express";
 import bodyParser from "body-parser";
-import getTemplateLocalRoute from "./routes/get-template-local";
-import emperiaEncryptRoute from "./routes/emperia-encrypt";
+import getTemplateLocalRoute from "./routes/get-template-local.js";
+import emperiaEncryptRoute from "./routes/emperia-encrypt.js";
+import getHtmlTemplateRoute from "./routes/get-html-template.js";
 
 dotenv.config();
 
@@ -24,6 +25,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use("/api/get-template-local", getTemplateLocalRoute);
 app.use("/api/emperia-encrypt", emperiaEncryptRoute);
+app.use("/api/get-html-template", getHtmlTemplateRoute);
 
 app.get("/api", (_, res) => {
     res.status(200).json({ data: "Welcome 7!" });

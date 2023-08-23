@@ -1,7 +1,7 @@
 import express from "express";
-import { Secret_EncryptKey } from "../constants/encrypt";
+import { Secret_EncryptKey } from "../constants/encrypt.js";
 import CryptoJS from "crypto-js";
-import { logError } from "../utils/logger";
+import { logError } from "../utils/logger.js";
 
 const router = express.Router();
 
