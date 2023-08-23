@@ -1,5 +1,5 @@
 import express from "express";
-import { logError } from "../utils/logger.js";
+import { logError, logRequest } from "../utils/logger.js";
 import { IHTMLTemplate, IHTMLTemplateData } from "../databases/types.js";
 import { JSONFile } from "lowdb/node";
 import { Low } from "lowdb";
@@ -56,6 +56,7 @@ router.get("/:id", async (req, res) => {
         }
 
         const cloned = convertTemplate(template, query);
+        logRequest(req);
         res.status(200).json({ data: cloned });
     } catch (error) {
         logError(error);
@@ -80,6 +81,7 @@ router.get("/:id/preview", async (req, res) => {
         }
 
         const cloned = convertTemplate(template, query);
+        logRequest(req);
         res.status(200).send(cloned);
     } catch (error) {
         logError(error);
