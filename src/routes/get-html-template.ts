@@ -20,7 +20,13 @@ const convertTemplate = (template: IHTMLTemplate, query: ParsedQs): string => {
     let cloned = template.content;
 
     template.variables.forEach(variable => {
-        const value = query[variable];
+        let value = query[variable];
+
+        if (Array.isArray(value)) {
+            const clonedValue = value;
+            value = clonedValue[0];
+        }
+
         if (typeof value !== "string") return;
 
         if (variable === SpecialKey) {
