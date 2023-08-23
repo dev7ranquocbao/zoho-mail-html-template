@@ -48,6 +48,7 @@ const convertTemplate = (template: IHTMLTemplate, query: ParsedQs): string => {
 router.get("/:id", async (req, res) => {
     try {
         await db.read();
+        logRequest(req);
 
         const templateId = req.params.id;
         const query = req.query;
@@ -62,7 +63,6 @@ router.get("/:id", async (req, res) => {
         }
 
         const cloned = convertTemplate(template, query);
-        logRequest(req);
         res.status(200).json({ data: cloned });
     } catch (error) {
         logError(error);
@@ -73,6 +73,7 @@ router.get("/:id", async (req, res) => {
 router.get("/:id/preview", async (req, res) => {
     try {
         await db.read();
+        logRequest(req);
 
         const templateId = req.params.id;
         const query = req.query;
@@ -87,7 +88,6 @@ router.get("/:id/preview", async (req, res) => {
         }
 
         const cloned = convertTemplate(template, query);
-        logRequest(req);
         res.status(200).send(cloned);
     } catch (error) {
         logError(error);

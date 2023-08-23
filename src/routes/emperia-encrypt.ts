@@ -1,7 +1,7 @@
 import express from "express";
 import { Secret_EncryptKey } from "../constants/encrypt.js";
 import CryptoJS from "crypto-js";
-import { logError } from "../utils/logger.js";
+import { logError, logRequest } from "../utils/logger.js";
 
 const router = express.Router();
 
@@ -41,6 +41,7 @@ const execute = (
 router.get("", async (req, res) => {
     try {
         const data = req.query.data;
+        logRequest(req);
 
         if (typeof data !== "string") {
             res.status(200).json({ data: "" });

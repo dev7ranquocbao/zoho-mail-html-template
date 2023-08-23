@@ -12,8 +12,6 @@ export const makeHTMLTableBody = (keywords: string[]) => {
         return intersect.length > 0;
     });
 
-    console.log(keywords);
-
     const randomExhibitors = sampleSize(collectData, 10);
 
     let trs = "";
