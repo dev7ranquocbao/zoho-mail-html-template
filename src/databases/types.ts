@@ -11,6 +11,8 @@ export interface IHTMLTemplateData {
 export interface IExhibitorInfo {
     id: string;
     companyName: string;
-    ppsMachineTechnologyProfile: string[];
+    displayName: string;
+    ppsIndustryProfile: string[];
+    ppsCompanyActivity: string[];
     stands: string;
 }

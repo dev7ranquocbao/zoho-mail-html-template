@@ -5,7 +5,7 @@ import { ExhibitorData } from "../databases/exhibitor-sheet.js";
 export const makeHTMLTableBody = (keywords: string[]) => {
     const collectData = ExhibitorData.filter(exhibitor => {
         const intersect = intersectionBy(
-            exhibitor.ppsMachineTechnologyProfile,
+            exhibitor.ppsIndustryProfile,
             keywords,
         );
 
