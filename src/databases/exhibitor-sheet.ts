@@ -7,6 +7,7 @@ export const ExhibitorSheet: string[][] = [
         `A01`,
         `Exporter|Manufacturer`,
         `Home Appliance|Mobile|Telecommunication|Automotive electronics|Electric power|Cable|Computer & accessories|Automation|Electronic components|Electronic assembly|Smart Electronics|LED|Lightning device|Audio|Visual Equipment`,
+        `Sensor, switch, Connector, Transformer, etc.|Electronics Manufacturing Services`,
     ],
     [
         `SHENZHEN ATOM TECHNOLOGY CO.,LTD`,
@@ -14,6 +15,7 @@ export const ExhibitorSheet: string[][] = [
         `A02`,
         `Manufacturer`,
         `Electronic components`,
+        `Sensor, switch, Connector, Transformer, etc.`,
     ],
     [
         `GUANGZHOU ZHONGZHENG ELECTRONIC DEVLOPMENT CO., LTD`,
@@ -21,11 +23,13 @@ export const ExhibitorSheet: string[][] = [
         `A03`,
         `Manufacturer`,
         `Electronic components`,
+        `Electronics Manufacturing Services`,
     ],
     [
         `JIANGSU GAOKAI PRECISION FLUID TECHNOLOGY CO., LTD`,
         `JIANGSU GAOKAI PRECISION FLUID TECHNOLOGY CO., LTD`,
         `A04`,
+        ``,
         ``,
         ``,
     ],
@@ -35,6 +39,7 @@ export const ExhibitorSheet: string[][] = [
         `A05`,
         `Manufacturer`,
         `Electronic components`,
+        `Semiconductor`,
     ],
     [
         `DONGGUAN GUIKE ELECTRONIC TECHNOLOGY CO., LTD`,
@@ -42,6 +47,7 @@ export const ExhibitorSheet: string[][] = [
         `A06`,
         `Manufacturer`,
         `Electronic components`,
+        `Semiconductor`,
     ],
     [
         `YIYANG ANXING ELECTRONICS CO., LTD`,
@@ -49,6 +55,7 @@ export const ExhibitorSheet: string[][] = [
         `A07`,
         `Manufacturer`,
         `Electronic assembly`,
+        `Electronics Manufacturing Services`,
     ],
     [
         `YANTAI DARBOND TECHNOLOGY CO.,LTD.`,
@@ -56,6 +63,7 @@ export const ExhibitorSheet: string[][] = [
         `A08`,
         `Manufacturer`,
         `Electronic assembly`,
+        `Solder paste`,
     ],
     [
         `SEEKTRONICS (HK HONGBOTONG TECHNOLOGY LIMITED)`,
@@ -63,6 +71,7 @@ export const ExhibitorSheet: string[][] = [
         `A09`,
         `Distributor/ Agent / Trading`,
         `Telecommunication|Automotive electronics|Electric power|Cable|Automation|Electronic components|Smart Electronics`,
+        `Semiconductor`,
     ],
     [
         `YUEQING CHANGDECHENG ELECTRONICS CO., LTD.`,
@@ -70,11 +79,13 @@ export const ExhibitorSheet: string[][] = [
         `A10`,
         `Exporter|Manufacturer`,
         `Electronic components`,
+        `Auto Insertion Machine|Loader, Un loader & Conveyor|Test and Measurement`,
     ],
     [
         `KOSHIN ELECTRONICS(CHEN ZHOU)LIMITED`,
         `KOSHIN ELECTRONICS(CHEN ZHOU)LIMITED`,
         `B10`,
+        ``,
         ``,
         ``,
     ],
@@ -84,11 +95,13 @@ export const ExhibitorSheet: string[][] = [
         `B11`,
         ``,
         ``,
+        ``,
     ],
     [
         `CHENZHOU TOPAZ ELECTRONIC TECHNOLOGY CO., LTD.`,
         `CHENZHOU TOPAZ ELECTRONIC TECHNOLOGY CO., LTD.`,
         `B12`,
+        ``,
         ``,
         ``,
     ],
@@ -98,11 +111,13 @@ export const ExhibitorSheet: string[][] = [
         `B13`,
         ``,
         ``,
+        ``,
     ],
     [
         `GUANGDONG ZHUANGSHI ELECTRONIC TECHNOLOGY CO., LTD`,
         `GUANGDONG ZHUANGSHI ELECTRONIC TECHNOLOGY CO., LTD`,
         `B14`,
+        ``,
         ``,
         ``,
     ],
@@ -112,11 +127,13 @@ export const ExhibitorSheet: string[][] = [
         `B15`,
         `Distributor/ Agent / Trading`,
         `Home Appliance|Mobile|Telecommunication|Automotive electronics|Automation|Electronic components|Electronic assembly|Optical Instrument & Equipment|Smart Electronics|Machinery|Others`,
+        `PCB and Equipment|IC and equipment|Semiconductor|Sensor, switch, Connector, Transformer, etc.|Electronics Manufacturing Services|Software|System|Others`,
     ],
     [
         `ANHUI VICO TECHNOLOGY CO.,LTD`,
         `ANHUI VICO TECHNOLOGY CO.,LTD`,
         `B16`,
+        ``,
         ``,
         ``,
     ],
@@ -126,6 +143,7 @@ export const ExhibitorSheet: string[][] = [
         `B17`,
         ``,
         ``,
+        ``,
     ],
     [
         `MEISHO CO., LTD.`,
@@ -133,6 +151,7 @@ export const ExhibitorSheet: string[][] = [
         `C01`,
         `Manufacturer`,
         `Electronic components`,
+        `SMT and Equipment`,
     ],
     [
         `HMC SALES & SERVICE PTE LTD`,
@@ -140,11 +159,13 @@ export const ExhibitorSheet: string[][] = [
         `C03`,
         `Distributor/ Agent / Trading`,
         `Automotive electronics|Electronic components|Electronic assembly|Smart Electronics|Testing|Quality Control|LED|Lightning device`,
+        `IC and equipment|Semiconductor|Test and Measurement`,
     ],
     [
         `PANASONIC FACTORY SOLUTIONS ASIA PACIFIC PTE.LTD.`,
         `PANASONIC FACTORY SOLUTIONS ASIA PACIFIC PTE.LTD.`,
         `C05A`,
+        ``,
         ``,
         ``,
     ],
@@ -154,6 +175,7 @@ export const ExhibitorSheet: string[][] = [
         `C05B`,
         ``,
         ``,
+        ``,
     ],
     [
         `GUANGDONG ANDA AUTOMATION SOLUTIONS CO., LTD.`,
@@ -161,6 +183,7 @@ export const ExhibitorSheet: string[][] = [
         `C10`,
         `Distributor/ Agent / Trading|Exporter|Importer|Manufacturer|Others`,
         `Home Appliance|Mobile|Telecommunication|Automotive electronics|Electric power|Cable|Computer & accessories|Automation|Electronic components|Electronic assembly|Smart Electronics|LED|Lightning device|Audio|Visual Equipment|Machinery|Others`,
+        `SMT and Equipment|PCB and Equipment|IC and equipment|Semiconductor|Printer|Loader, Un loader & Conveyor|Auto Optical Inspection Machine (AOI)|Dispenser|Solder paste|Electronics Manufacturing Services|Others`,
     ],
     [
         `DONGGUAN ULUO ELECTRONIC CO.,LTD`,
@@ -168,6 +191,7 @@ export const ExhibitorSheet: string[][] = [
         `C11`,
         `Exporter|Manufacturer|OEM / Subcontractor`,
         `Machinery`,
+        `Wave Solder Machine`,
     ],
     [
         `DONGGUAN YUXI PRECISION CONNECTOR CO., LTD`,
@@ -175,6 +199,7 @@ export const ExhibitorSheet: string[][] = [
         `C13`,
         `Exporter|Importer|Manufacturer`,
         `Home Appliance|Mobile|Telecommunication|Automotive electronics|Electric power|Cable|Computer & accessories|Electronic components|Electronic assembly`,
+        `Auto Insertion Machine|Reflow Oven|Auto Optical Inspection Machine (AOI)|Test and Measurement|Sensor, switch, Connector, Transformer, etc.|Electronics Manufacturing Services|Others`,
     ],
     [
         `GUANGZHOU LEICHEN EQUIPMENT TECHNOLOGY CO., LTD`,
@@ -182,11 +207,13 @@ export const ExhibitorSheet: string[][] = [
         `C14`,
         `Manufacturer`,
         `Optical Instrument & Equipment`,
+        `Auto Optical Inspection Machine (AOI)`,
     ],
     [
         `DONGGUAN HONGDA ELECTRONIC TECHNOLOGY CO., LTD`,
         `DONGGUAN HONGDA ELECTRONIC TECHNOLOGY CO., LTD`,
         `C15`,
+        ``,
         ``,
         ``,
     ],
@@ -196,6 +223,7 @@ export const ExhibitorSheet: string[][] = [
         `C17`,
         `Manufacturer`,
         `Home Appliance|Automotive electronics|Electric power|Cable|Electronic components`,
+        `SMT and Equipment|PCB and Equipment|IC and equipment|Semiconductor|Printer|Auto Insertion Machine|Loader, Un loader & Conveyor|Wave Solder Machine|Auto Optical Inspection Machine (AOI)|Dispenser|Test and Measurement|Sensor, switch, Connector, Transformer, etc.|Solder paste|Electronics Manufacturing Services`,
     ],
     [
         `CHINA WEJ LIGHTING CO.,LTD`,
@@ -203,11 +231,13 @@ export const ExhibitorSheet: string[][] = [
         `C18`,
         `Exporter|Manufacturer|OEM / Subcontractor`,
         `Home Appliance|Mobile|Telecommunication|Automotive electronics|Computer & accessories|Automation|Electronic components|Optical Instrument & Equipment|Smart Electronics|LED|Lightning device`,
+        `SMT and Equipment|Semiconductor|Printer|Reflow Oven|Wave Solder Machine|Dispenser|Test and Measurement`,
     ],
     [
         `ZHEJIANG QLG HOLDINGS CO.LTD`,
         `ZHEJIANG QLG HOLDINGS CO.LTD`,
         `C19`,
+        ``,
         ``,
         ``,
     ],
@@ -217,6 +247,7 @@ export const ExhibitorSheet: string[][] = [
         `C20`,
         `Manufacturer`,
         `Electronic components`,
+        `Electronics Manufacturing Services`,
     ],
     [
         `ZHEJIANG HUAQI ZHENGBANG AUTOMATION TECHNOLOGY CO., LTD.`,
@@ -224,12 +255,14 @@ export const ExhibitorSheet: string[][] = [
         `C21`,
         `Exporter|Manufacturer`,
         `Electronic assembly|LED|Lightning device|Machinery|Others`,
+        `PCB and Equipment|Printer|Loader, Un loader & Conveyor|Reflow Oven|Wave Solder Machine|Auto Optical Inspection Machine (AOI)|Dispenser|Test and Measurement|Electronics Manufacturing Services|Others|SMT and Equipment`,
     ],
     [
         `HANGZHOU FENLOC BONDTEK CO.,LTD.`,
         `HANGZHOU FENLOC BONDTEK CO.,LTD.`,
         `C22`,
         `Manufacturer`,
+        `Others`,
         `Others`,
     ],
     [
@@ -238,11 +271,13 @@ export const ExhibitorSheet: string[][] = [
         `C23`,
         `Exporter|Manufacturer`,
         `Automotive electronics|Automation|Electronic components|Electronic assembly`,
+        `Sensor, switch, Connector, Transformer, etc.|Electronics Manufacturing Services`,
     ],
     [
         `WUXI ARK TECHNOLOGY ELECTRONIC CO., LTD`,
         `WUXI ARK TECHNOLOGY ELECTRONIC CO., LTD`,
         `C25`,
+        ``,
         ``,
         ``,
     ],
@@ -252,6 +287,7 @@ export const ExhibitorSheet: string[][] = [
         `C26`,
         `Manufacturer`,
         `Home Appliance|Automotive electronics|Automation|Electronic components|Smart Electronics`,
+        `Sensor, switch, Connector, Transformer, etc.|Electronics Manufacturing Services`,
     ],
     [
         `ZHEJIANG DUKEN ELECTRICAL CO.,LTD`,
@@ -259,6 +295,7 @@ export const ExhibitorSheet: string[][] = [
         `C27`,
         `Distributor/ Agent / Trading|Exporter|Manufacturer|OEM / Subcontractor`,
         `Electronic components`,
+        `Semiconductor`,
     ],
     [
         `GUANGDONG PTI INTELLIGENT EQUIPMENT CO.,LTD.`,
@@ -266,11 +303,13 @@ export const ExhibitorSheet: string[][] = [
         `D01`,
         `Exporter|Manufacturer`,
         `Home Appliance|Mobile|Telecommunication|Automotive electronics|Electric power|Cable|Automation|Electronic components|Electronic assembly|Optical Instrument & Equipment|Testing|Quality Control|LED|Lightning device|Audio|Visual Equipment|Association|Organization|Designing|Consulting|Financing|Machinery`,
+        `SMT and Equipment|Auto Optical Inspection Machine (AOI)|Test and Measurement|Electronics Manufacturing Services`,
     ],
     [
         `DONGGUAN ELECTRONIC INDUSTRY ASSOCIATION`,
         `DONGGUAN ELECTRONIC INDUSTRY ASSOCIATION`,
         `D01 - D10 ; E29`,
+        ``,
         ``,
         ``,
     ],
@@ -280,11 +319,13 @@ export const ExhibitorSheet: string[][] = [
         `D02`,
         `Distributor/ Agent / Trading|Government|Importer|Manufacturer|OEM / Subcontractor`,
         `Home Appliance|Mobile|Telecommunication|Automotive electronics|Electric power|Cable|Computer & accessories|Electronic components|Optical Instrument & Equipment`,
+        `SMT and Equipment|PCB and Equipment|Printer|Auto Insertion Machine|Test and Measurement`,
     ],
     [
         `ZHONGSHAN COMPETENT AUTOMATION EQUIPMENT CO,.LTD`,
         `ZHONGSHAN COMPETENT AUTOMATION EQUIPMENT CO,.LTD`,
         `D03`,
+        ``,
         ``,
         ``,
     ],
@@ -294,6 +335,7 @@ export const ExhibitorSheet: string[][] = [
         `D04`,
         `Manufacturer`,
         `Home Appliance|Mobile|Telecommunication|Automotive electronics|Electric power|Cable|Computer & accessories|Automation|Electronic components|Electronic assembly|Optical Instrument & Equipment|Smart Electronics|LED|Lightning device|Audio|Visual Equipment`,
+        `SMT and Equipment|PCB and Equipment|Sensor, switch, Connector, Transformer, etc.|Electronics Manufacturing Services|Robotics`,
     ],
     [
         `SHENZHEN TOPMAY ELECTRONIC CO.,LTD.`,
@@ -301,11 +343,13 @@ export const ExhibitorSheet: string[][] = [
         `D05`,
         `Distributor/ Agent / Trading|Exporter|Manufacturer|OEM / Subcontractor`,
         `Home Appliance|Mobile|Telecommunication|Electric power|Cable|Electronic components|Electronic assembly|Smart Electronics|LED|Lightning device|Audio|Visual Equipment`,
+        `SMT and Equipment|PCB and Equipment|IC and equipment|Semiconductor|Sensor, switch, Connector, Transformer, etc.|Others`,
     ],
     [
         `DONGGUAN ZHIXU ELECTRONIC CO., LTD`,
         `DONGGUAN ZHIXU ELECTRONIC CO., LTD`,
         `D06`,
+        ``,
         ``,
         ``,
     ],
@@ -315,6 +359,7 @@ export const ExhibitorSheet: string[][] = [
         `D07`,
         `Manufacturer`,
         `Electronic assembly|Testing|Quality Control`,
+        `IC and equipment|Semiconductor`,
     ],
     [
         `DONGGUAN JBL TECH CO., LTD`,
@@ -322,11 +367,13 @@ export const ExhibitorSheet: string[][] = [
         `D08`,
         `Exporter|Manufacturer`,
         `Telecommunication|Mobile|Automotive electronics|Electric power|Cable|Computer & accessories|Automation|Electronic components|Electronic assembly|Smart Electronics`,
+        `PCB and Equipment|Sensor, switch, Connector, Transformer, etc.|Electronics Manufacturing Services|SMT and Equipment`,
     ],
     [
         `GUANGDONG JUGUANGHENG AUTOMATION EQUIPMENT CO.,LTD`,
         `GUANGDONG JUGUANGHENG AUTOMATION EQUIPMENT CO.,LTD`,
         `D09`,
+        ``,
         ``,
         ``,
     ],
@@ -336,6 +383,7 @@ export const ExhibitorSheet: string[][] = [
         `D10`,
         `Manufacturer`,
         `Home Appliance|Mobile|Telecommunication|Automotive electronics|Computer & accessories|Automation|Electronic assembly`,
+        `Dispenser|Electronics Manufacturing Services|Robotics`,
     ],
     [
         `AIRBEST (CHANGXING) TECHNOLOGY CO., LTD.`,
@@ -343,6 +391,7 @@ export const ExhibitorSheet: string[][] = [
         `D11`,
         `Manufacturer`,
         `Automation|Machinery|Others`,
+        `Robotics|Others`,
     ],
     [
         `TOP DISPLAY OPTOELECTRONICS CO., LTD`,
@@ -350,19 +399,29 @@ export const ExhibitorSheet: string[][] = [
         `D12`,
         ``,
         ``,
+        ``,
     ],
-    [`JUNG SHING WIRE CO., LTD.`, `JUNG SHING WIRE CO., LTD.`, `E01`, ``, ``],
+    [
+        `JUNG SHING WIRE CO., LTD.`,
+        `JUNG SHING WIRE CO., LTD.`,
+        `E01`,
+        ``,
+        ``,
+        ``,
+    ],
     [
         `CVILUX CORPORATION`,
         `CVILUX CORPORATION`,
         `E02`,
         `Manufacturer`,
         `Electronic components`,
+        `Sensor, switch, Connector, Transformer, etc.`,
     ],
     [
         `MING CHIANG PRECISION CO., LTD.`,
         `MING CHIANG PRECISION CO., LTD.`,
         `E03`,
+        ``,
         ``,
         ``,
     ],
@@ -372,6 +431,7 @@ export const ExhibitorSheet: string[][] = [
         `E04`,
         ``,
         ``,
+        ``,
     ],
     [
         `EVERWIDE CHEMICAL COMPANY`,
@@ -379,11 +439,13 @@ export const ExhibitorSheet: string[][] = [
         `E05`,
         `Exporter|Manufacturer`,
         `Home Appliance|Mobile|Telecommunication|Automotive electronics|Electric power|Cable|Computer & accessories|Automation|Electronic components|Electronic assembly|Optical Instrument & Equipment|Smart Electronics|Testing|Quality Control|LED|Lightning device|Audio|Visual Equipment|Designing|Consulting|Financing`,
+        `SMT and Equipment|PCB and Equipment|IC and equipment|Semiconductor|Dispenser|Test and Measurement|Sensor, switch, Connector, Transformer, etc.|Solder paste|Electronics Manufacturing Services`,
     ],
     [
         `T-GLOBAL TECHNOLOGY CO., LTD.`,
         `T-GLOBAL TECHNOLOGY CO., LTD.`,
         `E06`,
+        ``,
         ``,
         ``,
     ],
@@ -393,11 +455,13 @@ export const ExhibitorSheet: string[][] = [
         `E07`,
         ``,
         ``,
+        ``,
     ],
     [
         `NANJING GUANGLIU TRADING CO.,LTD`,
         `NANJING GUANGLIU TRADING CO.,LTD`,
         `E08`,
+        ``,
         ``,
         ``,
     ],
@@ -407,6 +471,7 @@ export const ExhibitorSheet: string[][] = [
         `E09`,
         `Distributor/ Agent / Trading`,
         `Electronic components`,
+        `Semiconductor|Sensor, switch, Connector, Transformer, etc.|Others`,
     ],
     [
         `ZHEJIANG MIOU INDUSTRIAL BELTING CO.,LTD`,
@@ -414,6 +479,7 @@ export const ExhibitorSheet: string[][] = [
         `E10`,
         `Manufacturer`,
         `Electronic components|Machinery`,
+        `Electronics Manufacturing Services`,
     ],
     [
         `ZHEJIANG KINTN INTELLIGENT EQUIPMENT CO.,LTD`,
@@ -421,11 +487,13 @@ export const ExhibitorSheet: string[][] = [
         `E13`,
         `Distributor/ Agent / Trading|Exporter|Manufacturer|OEM / Subcontractor`,
         `Automotive electronics|Computer & accessories|Automation|Electronic components|Electronic assembly|LED|Lightning device`,
+        `Sensor, switch, Connector, Transformer, etc.|Electronics Manufacturing Services|Software|System|SMT and Equipment`,
     ],
     [
         `HUBEI RUIYUAN ELECTRONIC CO. ,LTD.`,
         `HUBEI RUIYUAN ELECTRONIC CO. ,LTD.`,
         `E17`,
+        ``,
         ``,
         ``,
     ],
@@ -435,11 +503,13 @@ export const ExhibitorSheet: string[][] = [
         `E18`,
         `Exporter|Manufacturer|OEM / Subcontractor`,
         `Home Appliance|Mobile|Telecommunication|Automotive electronics|Electric power|Cable|Computer & accessories|Automation|Electronic components|Electronic assembly|Testing|Quality Control|LED|Lightning device|Machinery`,
+        `SMT and Equipment|PCB and Equipment|Semiconductor|Sensor, switch, Connector, Transformer, etc.|Electronics Manufacturing Services`,
     ],
     [
         `SHENZHEN HTGD INTELLIGENT EQUIPMENT CO.,LTD`,
         `SHENZHEN HTGD INTELLIGENT EQUIPMENT CO.,LTD`,
         `E19`,
+        ``,
         ``,
         ``,
     ],
@@ -449,6 +519,7 @@ export const ExhibitorSheet: string[][] = [
         `E20`,
         ``,
         ``,
+        ``,
     ],
     [
         `SUZHOU CIYI ELECTRONIC TECHNOLOGY CO., LTD.`,
@@ -456,6 +527,7 @@ export const ExhibitorSheet: string[][] = [
         `E21`,
         `Manufacturer`,
         `Home Appliance|Mobile|Computer & accessories|Electronic components|Electronic assembly|Smart Electronics`,
+        `Sensor, switch, Connector, Transformer, etc.|Electronics Manufacturing Services`,
     ],
     [
         `KRYSTAIC INTEGRATED CIRCUITS (TAIZHOU) CO.,LTD.`,
@@ -463,11 +535,13 @@ export const ExhibitorSheet: string[][] = [
         `E22`,
         `Distributor/ Agent / Trading|Exporter|Importer|Manufacturer|OEM / Subcontractor`,
         `Computer & accessories`,
+        `Semiconductor`,
     ],
     [
         `JIANGSU CHANGJING ELECTRONICS TECHNOLOGY CO.,LTD`,
         `JIANGSU CHANGJING ELECTRONICS TECHNOLOGY CO.,LTD`,
         `E23`,
+        ``,
         ``,
         ``,
     ],
@@ -477,11 +551,13 @@ export const ExhibitorSheet: string[][] = [
         `E24`,
         `Exporter|Manufacturer`,
         `Home Appliance|Electronic components|Smart Electronics|LED|Lightning device`,
+        `Sensor, switch, Connector, Transformer, etc.|Electronics Manufacturing Services`,
     ],
     [
         `QUICK AUTOMATION TECHNOLOGY (DONGGUAN)CO.,LTD.`,
         `QUICK INTELLIGENT EQUIPMENT`,
         `E29`,
+        ``,
         ``,
         ``,
     ],
@@ -491,6 +567,7 @@ export const ExhibitorSheet: string[][] = [
         `F01`,
         `Manufacturer`,
         `Automotive electronics|Electric power|Cable|Others`,
+        `Sensor, switch, Connector, Transformer, etc.|Others`,
     ],
     [
         `ABECO ELECTRONIC CO., LTD.`,
@@ -498,6 +575,7 @@ export const ExhibitorSheet: string[][] = [
         `F02`,
         `Distributor/ Agent / Trading|Importer`,
         `Home Appliance|Mobile|Telecommunication|Automotive electronics|Electric power|Cable|Computer & accessories|Automation|Electronic components|Smart Electronics|Optical Instrument & Equipment|LED|Lightning device`,
+        `Others`,
     ],
     [
         `JIAZHI CHEMICAL CO., LTD`,
@@ -505,6 +583,7 @@ export const ExhibitorSheet: string[][] = [
         `F03`,
         `Distributor/ Agent / Trading|Exporter|Importer|Manufacturer|OEM / Subcontractor`,
         `Mobile|Computer & accessories|Automation|Electronic components|Electronic assembly|Optical Instrument & Equipment|Smart Electronics|Others`,
+        `PCB and Equipment|Electronics Manufacturing Services|Others|SMT and Equipment`,
     ],
     [
         `JOINT TECH ELECTRONIC INDUSTRIAL CO., LTD.`,
@@ -512,19 +591,29 @@ export const ExhibitorSheet: string[][] = [
         `F05`,
         `Exporter|Manufacturer`,
         `Home Appliance|Mobile|Telecommunication|Automotive electronics|Electric power|Cable|Electronic components|LED|Lightning device`,
+        `Electronics Manufacturing Services`,
     ],
-    [`LI WEI TECHNOLOGY CO., LTD`, `LI WEI TECHNOLOGY CO., LTD`, `F06`, ``, ``],
+    [
+        `LI WEI TECHNOLOGY CO., LTD`,
+        `LI WEI TECHNOLOGY CO., LTD`,
+        `F06`,
+        ``,
+        ``,
+        ``,
+    ],
     [
         `GREENCONN TECHNOLOGY CO., LTD.`,
         `Greenconn Technology (Shenzhen) Co., Ltd.`,
         `F07`,
         `Manufacturer`,
         `Home Appliance|Mobile|Telecommunication|Automotive electronics|Electric power|Cable|Computer & accessories|Automation|Electronic components|Electronic assembly|Smart Electronics|LED|Lightning device|Machinery`,
+        `Sensor, switch, Connector, Transformer, etc.`,
     ],
     [
         `NANCHONG YAT FAI ELECTRONICS TECHNOLOGY CO., LTD.`,
         `NANCHONG YAT FAI ELECTRONICS TECHNOLOGY CO., LTD.`,
         `F08`,
+        ``,
         ``,
         ``,
     ],
@@ -534,11 +623,13 @@ export const ExhibitorSheet: string[][] = [
         `F09`,
         `Distributor/ Agent / Trading|Exporter|Importer|Manufacturer|OEM / Subcontractor|EPC|Consulting|Others`,
         `Home Appliance|Automotive electronics|Electric power|Cable|Computer & accessories|Automation|Electronic components|Electronic assembly|Smart Electronics|Testing|Quality Control|LED|Lightning device|Audio|Visual Equipment|Designing|Consulting|Financing|Machinery|Others`,
+        `PCB and Equipment|Test and Measurement|Sensor, switch, Connector, Transformer, etc.|Electronics Manufacturing Services|Others`,
     ],
     [
         `SHENZHEN WATERUN TECHNOLOGY CO., LTD.`,
         `SHENZHEN WATERUN TECHNOLOGY CO., LTD.`,
         `F11`,
+        ``,
         ``,
         ``,
     ],
@@ -548,12 +639,14 @@ export const ExhibitorSheet: string[][] = [
         `F12`,
         ``,
         ``,
+        ``,
     ],
-    [`UNIWELL ELECTRONIC LTD.`, `UNIWELL ELECTRONIC LTD.`, `F13`, ``, ``],
+    [`UNIWELL ELECTRONIC LTD.`, `UNIWELL ELECTRONIC LTD.`, `F13`, ``, ``, ``],
     [
         `SHENZHEN JIANXIAN SIQI INDUSTRY CO. , LTD`,
         `SHENZHEN JIANXIAN SIQI INDUSTRY CO. , LTD`,
         `F14`,
+        ``,
         ``,
         ``,
     ],
@@ -563,11 +656,13 @@ export const ExhibitorSheet: string[][] = [
         `F18`,
         ``,
         ``,
+        ``,
     ],
     [
         `SHANGHAI ANPING STATIC TECHNOLOGY CO., LTD.`,
         `SHANGHAI ANPING STATIC TECHNOLOGY CO., LTD.`,
         `F19`,
+        ``,
         ``,
         ``,
     ],
@@ -577,6 +672,7 @@ export const ExhibitorSheet: string[][] = [
         `F20`,
         `Manufacturer`,
         `Home Appliance|Mobile|Telecommunication|Automotive electronics|Computer & accessories|Electronic components|Electronic assembly|Smart Electronics`,
+        `PCB and Equipment|Electronics Manufacturing Services`,
     ],
     [
         `SHENZHEN YOU-SAN TECHNOLOGY CO.,LIMITED`,
@@ -584,11 +680,13 @@ export const ExhibitorSheet: string[][] = [
         `F21`,
         `Distributor/ Agent / Trading|Exporter|Government|Importer|Manufacturer|OEM / Subcontractor|State Enterprise|EPC|Consulting|Others`,
         `Home Appliance|Mobile|Telecommunication|Automotive electronics|Electric power|Cable|Computer & accessories|Automation|Electronic components|Electronic assembly|Optical Instrument & Equipment|Smart Electronics|Testing|Quality Control|LED|Lightning device|Audio|Visual Equipment|Association|Organization|Designing|Consulting|Financing|Machinery|Others`,
+        `Wave Solder Machine|SMT and Equipment|PCB and Equipment|IC and equipment|Semiconductor|Printer|Auto Insertion Machine|Loader, Un loader & Conveyor|Reflow Oven|Dispenser|Test and Measurement|Sensor, switch, Connector, Transformer, etc.|Solder paste|Electronics Manufacturing Services|Software|System|Robotics|Others|Auto Optical Inspection Machine (AOI)`,
     ],
     [
         `SUDONG INTERNATIONAL ENTERPRISE (SHENZHEN) CO., LTD`,
         `SUDONG INTERNATIONAL ENTERPRISE (SHENZHEN) CO., LTD`,
         `F23`,
+        ``,
         ``,
         ``,
     ],
@@ -598,6 +696,7 @@ export const ExhibitorSheet: string[][] = [
         `F24`,
         `Manufacturer`,
         `Automation|Machinery`,
+        `PCB and Equipment|Test and Measurement|Robotics|SMT and Equipment`,
     ],
     [
         `CEPCO ELECTRONICS (M) SDN.BHD.`,
@@ -605,6 +704,7 @@ export const ExhibitorSheet: string[][] = [
         `F27`,
         `Distributor/ Agent / Trading|Importer`,
         `Automotive electronics|Electric power|Cable|Electronic components|Electronic assembly|LED|Lightning device`,
+        `IC and equipment|Semiconductor|Sensor, switch, Connector, Transformer, etc.`,
     ],
     [
         `CHYI CHAN ELECTRONICS CO., LTD.`,
@@ -612,6 +712,7 @@ export const ExhibitorSheet: string[][] = [
         `F29`,
         `OEM / Subcontractor`,
         `Home Appliance|Electronic components|Electronic assembly|LED|Lightning device`,
+        `PCB and Equipment|IC and equipment|SMT and Equipment`,
     ],
     [
         `JOEUN KISUL`,
@@ -619,6 +720,7 @@ export const ExhibitorSheet: string[][] = [
         `F30`,
         `Manufacturer`,
         `Automation|Machinery`,
+        `PCB and Equipment|Semiconductor|SMT and Equipment`,
     ],
     [
         `DYFENCO INTERNATIONAL CO., LTD.`,
@@ -626,6 +728,7 @@ export const ExhibitorSheet: string[][] = [
         `G01`,
         `Exporter|Manufacturer`,
         `Home Appliance|Mobile|Telecommunication|Automotive electronics|Electric power|Cable|Computer & accessories|Electronic components|Electronic assembly|Smart Electronics|LED|Lightning device|Audio|Visual Equipment`,
+        `SMT and Equipment|PCB and Equipment|IC and equipment|Semiconductor|Printer|Reflow Oven|Wave Solder Machine|Sensor, switch, Connector, Transformer, etc.|Solder paste|Electronics Manufacturing Services`,
     ],
     [
         `GENERAL COMPONENTS INDUSTRY CORP.`,
@@ -633,6 +736,7 @@ export const ExhibitorSheet: string[][] = [
         `G03`,
         `Manufacturer|OEM / Subcontractor`,
         `Home Appliance|Telecommunication|Automotive electronics|Electric power|Cable|Automation|Electronic components|Smart Electronics|LED|Lightning device|Audio|Visual Equipment`,
+        `Reflow Oven|Test and Measurement|Sensor, switch, Connector, Transformer, etc.|Electronics Manufacturing Services|Others`,
     ],
     [
         `KANG YANG HARDWARE ENTERPRISES CO., LTD.`,
@@ -640,22 +744,32 @@ export const ExhibitorSheet: string[][] = [
         `G04`,
         ``,
         ``,
+        ``,
     ],
-    [`USE ELECTRONICS CO., LTD.`, `USE ELECTRONICS CO., LTD.`, `G05`, ``, ``],
+    [
+        `USE ELECTRONICS CO., LTD.`,
+        `USE ELECTRONICS CO., LTD.`,
+        `G05`,
+        ``,
+        ``,
+        ``,
+    ],
     [
         `LIPERS ENTERPRISE CO., LTD`,
         `LIPERS ENTERPRISE CO., LTD.`,
         `G06`,
         `Distributor/ Agent / Trading`,
         `Telecommunication|Automotive electronics|Computer & accessories|Automation|Electronic components|Electronic assembly|Smart Electronics`,
+        `IC and equipment|Semiconductor|Sensor, switch, Connector, Transformer, etc.|Electronics Manufacturing Services`,
     ],
-    [`OBO PRO.2 INC.`, `OBO PRO.2 INC.`, `G07`, ``, ``],
+    [`OBO PRO.2 INC.`, `OBO PRO.2 INC.`, `G07`, ``, ``, ``],
     [
         `GROOVY TECHNOLOGY CORPORATION`,
         `GROOVY TECHNOLOGY CORPORATION`,
         `G08`,
         `Distributor/ Agent / Trading|Manufacturer|OEM / Subcontractor`,
         `Electronic components|Electronic assembly`,
+        `Electronics Manufacturing Services|Others`,
     ],
     [
         `TARNG YU ENTERPRISE CO., LTD.`,
@@ -663,11 +777,13 @@ export const ExhibitorSheet: string[][] = [
         `G09`,
         `Manufacturer|OEM / Subcontractor`,
         `Home Appliance|Mobile|Automotive electronics|Computer & accessories|Electronic components|Smart Electronics|Designing|Consulting|Financing`,
+        `Sensor, switch, Connector, Transformer, etc.|Electronics Manufacturing Services`,
     ],
     [
         `CHYAO SHIUNN ELECTRONIC INDUSTRIAL LTD.`,
         `CHYAO SHIUNN ELECTRONIC INDUSTRIAL LTD.`,
         `G10`,
+        ``,
         ``,
         ``,
     ],
@@ -677,6 +793,7 @@ export const ExhibitorSheet: string[][] = [
         `G13`,
         `Manufacturer`,
         `Automation|Optical Instrument & Equipment|Testing|Quality Control`,
+        `IC and equipment|Printer|Loader, Un loader & Conveyor|Auto Optical Inspection Machine (AOI)|Electronics Manufacturing Services|SMT and Equipment`,
     ],
     [
         `DAILYWELL ELECTRONICS CO., LTD`,
@@ -684,6 +801,7 @@ export const ExhibitorSheet: string[][] = [
         `G14`,
         `Manufacturer|OEM / Subcontractor`,
         `Automotive electronics|Automation|Electronic components|Electronic assembly`,
+        `Sensor, switch, Connector, Transformer, etc.|Electronics Manufacturing Services`,
     ],
     [
         `GUANGDONG NEW POWER TECHNOLOGY CO, LTD.`,
@@ -691,6 +809,7 @@ export const ExhibitorSheet: string[][] = [
         `G21`,
         `Distributor/ Agent / Trading|OEM / Subcontractor|Others`,
         `Home Appliance|Telecommunication|Automotive electronics|Computer & accessories|Automation|Electronic assembly|Machinery`,
+        `Software|System|Robotics`,
     ],
     [
         `DONGGUAN HAYAWIN ELECTRONIC TECHNOLOGY CO., LTD.`,
@@ -698,6 +817,7 @@ export const ExhibitorSheet: string[][] = [
         `G23`,
         `Exporter|Manufacturer|OEM / Subcontractor|Others`,
         `Mobile|Automotive electronics|Computer & accessories|Automation|Electronic assembly|Smart Electronics|Machinery|Others`,
+        `SMT and Equipment|PCB and Equipment|Loader, Un loader & Conveyor|Software|System`,
     ],
     [
         `JIGELEC PRECISION SYSTEM CO., LTD`,
@@ -705,11 +825,13 @@ export const ExhibitorSheet: string[][] = [
         `G28`,
         `Manufacturer`,
         `Home Appliance|Mobile|Automotive electronics|Electronic assembly|Smart Electronics`,
+        `Robotics|Others`,
     ],
     [
         `OMRON ELECTRONICS CO., LTD.`,
         `OMRON ELECTRONICS CO., LTD.`,
         `G29`,
+        ``,
         ``,
         ``,
     ],
@@ -719,11 +841,13 @@ export const ExhibitorSheet: string[][] = [
         `G30`,
         `Distributor/ Agent / Trading|Manufacturer`,
         `Others`,
+        `Others`,
     ],
     [
         `MITUTOYO ASIA PACIFIC PTE. LTD.`,
         `MITUTOYO ASIA PACIFIC PTE. LTD.`,
         `H05`,
+        ``,
         ``,
         ``,
     ],
@@ -733,11 +857,13 @@ export const ExhibitorSheet: string[][] = [
         `H13`,
         `Manufacturer`,
         `Automotive electronics|Automation|Electronic components|Machinery|Others`,
+        `PCB and Equipment|Solder paste|Electronics Manufacturing Services|Robotics|Others|SMT and Equipment`,
     ],
     [
         `RMG TECHNOLOGIES VIETNAM CO., LTD`,
         `RMG TECHNOLOGIES VIETNAM`,
         `H19`,
+        ``,
         ``,
         ``,
     ],
@@ -747,6 +873,7 @@ export const ExhibitorSheet: string[][] = [
         `H23`,
         ``,
         ``,
+        ``,
     ],
     [
         `FUJI MACHINE ASIA PTE LTD.`,
@@ -754,6 +881,7 @@ export const ExhibitorSheet: string[][] = [
         `I13`,
         `Distributor/ Agent / Trading|Exporter|Manufacturer`,
         `Home Appliance|Mobile|Telecommunication|Automotive electronics|Computer & accessories|Automation|Electronic components|Electronic assembly|Smart Electronics|LED|Lightning device|Audio|Visual Equipment|Machinery`,
+        `SMT and Equipment|Semiconductor|Printer|Loader, Un loader & Conveyor|Reflow Oven|Auto Optical Inspection Machine (AOI)|Dispenser|Sensor, switch, Connector, Transformer, etc.|Solder paste|Electronics Manufacturing Services|Robotics`,
     ],
     [
         `KURTZ ERSA VIETNAM COMPANY LIMITED`,
@@ -761,6 +889,7 @@ export const ExhibitorSheet: string[][] = [
         `I21`,
         `Distributor/ Agent / Trading|Manufacturer`,
         `Mobile|Automotive electronics|Electronic components|Electronic assembly|Smart Electronics`,
+        `Printer|Reflow Oven|Wave Solder Machine|Electronics Manufacturing Services|Software|System|SMT and Equipment`,
     ],
     [
         `SIEMENS LIMITED COMPANY`,
@@ -768,14 +897,16 @@ export const ExhibitorSheet: string[][] = [
         `I23`,
         `Importer|Manufacturer`,
         `Automation|Electronic components|Machinery`,
+        `Software|System|Robotics`,
     ],
-    [`NSK VIETNAM CO.,LTD`, `NSK VIETNAM CO.,LTD`, `I28`, ``, ``],
+    [`NSK VIETNAM CO.,LTD`, `NSK VIETNAM CO.,LTD`, `I28`, ``, ``, ``],
     [
         `CARL ZEISS VIETNAM COMPANY LIMITED`,
         `Carl Zeiss Vietnam Company Limited`,
         `I29`,
         `Manufacturer`,
         `Automotive electronics|Electronic components|Electronic assembly|Smart Electronics|Testing|Quality Control`,
+        `Test and Measurement`,
     ],
     [
         `PROCHEM TECHNOLOGY (HANOI) CO.,LTD`,
@@ -783,6 +914,7 @@ export const ExhibitorSheet: string[][] = [
         `I30`,
         `Distributor/ Agent / Trading`,
         `Testing|Quality Control|Machinery`,
+        `PCB and Equipment|Test and Measurement|Software|System`,
     ],
     [
         `SIP TECHNOLOGY PTE LTD`,
@@ -790,11 +922,13 @@ export const ExhibitorSheet: string[][] = [
         `J09`,
         `Distributor/ Agent / Trading|Manufacturer`,
         `Home Appliance|Mobile|Telecommunication|Automotive electronics|Electric power|Cable|Computer & accessories|Automation|Electronic components|Electronic assembly|Optical Instrument & Equipment|Smart Electronics|Testing|Quality Control|LED|Lightning device|Audio|Visual Equipment|Designing|Consulting|Financing|Machinery`,
+        `SMT and Equipment|PCB and Equipment|IC and equipment|Semiconductor|Printer|Auto Insertion Machine|Loader, Un loader & Conveyor|Reflow Oven|Wave Solder Machine|Auto Optical Inspection Machine (AOI)|Dispenser|Test and Measurement|Solder paste|Electronics Manufacturing Services|Software|System|Robotics|Others`,
     ],
     [
         `VIETXIN VIETNAM TECHNOLOGY COMPANY LIMITED`,
         `VIETXIN VIETNAM TECHNOLOGY COMPANY LIMITED`,
         `J13`,
+        ``,
         ``,
         ``,
     ],
@@ -804,11 +938,13 @@ export const ExhibitorSheet: string[][] = [
         `J19`,
         `Distributor/ Agent / Trading`,
         `Electronic assembly`,
+        `Printer|Auto Insertion Machine|Loader, Un loader & Conveyor|Reflow Oven|Auto Optical Inspection Machine (AOI)|Dispenser|Test and Measurement|Robotics|SMT and Equipment`,
     ],
     [
         `CONG TY TNHH CONG NGHE DO LUONG / MTEC COMPANY LIMITED`,
         `CONG TY TNHH CONG NGHE DO LUONG / MTEC COMPANY LIMITED`,
         `J22`,
+        ``,
         ``,
         ``,
     ],
@@ -818,6 +954,7 @@ export const ExhibitorSheet: string[][] = [
         `J23`,
         `Distributor/ Agent / Trading|Exporter|Government|Importer|Manufacturer|OEM / Subcontractor|State Enterprise|EPC|Consulting`,
         `Home Appliance|Mobile|Telecommunication|Automotive electronics|Electric power|Cable|Computer & accessories|Automation|Electronic components|Electronic assembly|Optical Instrument & Equipment|Smart Electronics|Testing|Quality Control|LED|Lightning device|Audio|Visual Equipment|Association|Organization|Designing|Consulting|Financing|Machinery|Others`,
+        `Wave Solder Machine|SMT and Equipment|PCB and Equipment|IC and equipment|Semiconductor|Printer|Auto Insertion Machine|Loader, Un loader & Conveyor|Reflow Oven|Dispenser|Test and Measurement|Sensor, switch, Connector, Transformer, etc.|Solder paste|Electronics Manufacturing Services|Software|System|Robotics|Others|Auto Optical Inspection Machine (AOI)`,
     ],
     [
         `SPECIALTY COATING SYSTEMS`,
@@ -825,11 +962,13 @@ export const ExhibitorSheet: string[][] = [
         `J24`,
         `Others`,
         `Automotive electronics|Electronic components|Others`,
+        `Others`,
     ],
     [
         `SINGAPORE NAMICS COMPANY PTE. LTD`,
         `SINGAPORE NAMICS COMPANY PTE. LTD`,
         `J27`,
+        ``,
         ``,
         ``,
     ],
@@ -839,6 +978,7 @@ export const ExhibitorSheet: string[][] = [
         `J29`,
         ``,
         ``,
+        ``,
     ],
     [
         `DONGGUAN AILLEN ELECTRONIC TECHNOLOGY CO., LTD`,
@@ -846,11 +986,13 @@ export const ExhibitorSheet: string[][] = [
         `J30`,
         `Manufacturer`,
         `Home Appliance|Telecommunication|Automotive electronics|Electronic components|Smart Electronics|LED|Lightning device`,
+        `Electronics Manufacturing Services|Others|SMT and Equipment`,
     ],
     [
         `DOU YEE ENTERPRISES (S) PTE LTD`,
         `DOU YEE ENTERPRISES (S) PTE LTD`,
         `K03`,
+        ``,
         ``,
         ``,
     ],
@@ -860,6 +1002,7 @@ export const ExhibitorSheet: string[][] = [
         `K04`,
         `Distributor/ Agent / Trading`,
         `Mobile|Telecommunication|Automotive electronics|Electric power|Cable|Automation|Electronic components|Electronic assembly|Optical Instrument & Equipment|Smart Electronics|Testing|Quality Control|Machinery|Others`,
+        `SMT and Equipment|Semiconductor|Printer|Auto Insertion Machine|Loader, Un loader & Conveyor|Reflow Oven|Wave Solder Machine|Auto Optical Inspection Machine (AOI)|Dispenser|Test and Measurement|Solder paste|Electronics Manufacturing Services|Software|System|Robotics|Others`,
     ],
     [
         `FEINMETALL SINGAPORE PTE LTD`,
@@ -867,12 +1010,21 @@ export const ExhibitorSheet: string[][] = [
         `K05`,
         ``,
         ``,
+        ``,
     ],
-    [`ACUMEN COMPONENTS PTE LTD`, `ACUMEN COMPONENTS PTE LTD`, `K08`, ``, ``],
+    [
+        `ACUMEN COMPONENTS PTE LTD`,
+        `ACUMEN COMPONENTS PTE LTD`,
+        `K08`,
+        ``,
+        ``,
+        ``,
+    ],
     [
         `ORGAN NEEDLE TRADING VIET NAM COMPANY LIMITED`,
         `ORGAN NEEDLE TRADING VIET NAM COMPANY LIMITED`,
         `K10`,
+        ``,
         ``,
         ``,
     ],
@@ -882,11 +1034,13 @@ export const ExhibitorSheet: string[][] = [
         `K14`,
         `Distributor/ Agent / Trading`,
         `Electronic components`,
+        `Semiconductor|Electronics Manufacturing Services`,
     ],
     [
         `CHIP 1 EXCHANGE ASIA LIMITED`,
         `CHIP 1 EXCHANGE ASIA LIMITED`,
         `K18`,
+        ``,
         ``,
         ``,
     ],
@@ -896,6 +1050,7 @@ export const ExhibitorSheet: string[][] = [
         `K19`,
         `Manufacturer|Others`,
         `Optical Instrument & Equipment|Testing|Quality Control|Others`,
+        `PCB and Equipment|Auto Optical Inspection Machine (AOI)|Test and Measurement|Software|System|Others|SMT and Equipment`,
     ],
     [
         `BEST BK CO.,LTD`,
@@ -903,6 +1058,7 @@ export const ExhibitorSheet: string[][] = [
         `K20`,
         `Manufacturer|OEM / Subcontractor`,
         `Electric power|Cable|Electronic assembly|Designing|Consulting|Financing`,
+        `PCB and Equipment|Wave Solder Machine|Electronics Manufacturing Services|SMT and Equipment`,
     ],
     [
         `CNS TECHNOLOGIES CO., LTD`,
@@ -910,6 +1066,7 @@ export const ExhibitorSheet: string[][] = [
         `K23`,
         `Distributor/ Agent / Trading`,
         `Automotive electronics|Electronic components|Electronic assembly|Smart Electronics|Testing|Quality Control|Others`,
+        `PCB and Equipment|IC and equipment|Semiconductor|Loader, Un loader & Conveyor|Auto Optical Inspection Machine (AOI)|Test and Measurement|Sensor, switch, Connector, Transformer, etc.|Electronics Manufacturing Services|Robotics|SMT and Equipment`,
     ],
     [
         `GKG PRECISION MACHINE CO.,LTD`,
@@ -917,14 +1074,16 @@ export const ExhibitorSheet: string[][] = [
         `K29`,
         `Distributor/ Agent / Trading|Manufacturer`,
         `Automation|Machinery`,
+        `PCB and Equipment|Semiconductor|Loader, Un loader & Conveyor|Reflow Oven|Wave Solder Machine|Dispenser|Solder paste|SMT and Equipment`,
     ],
-    [`HIBEX SINGAPORE PTE LTD`, `HIBEX SINGAPORE PTE LTD`, `L03`, ``, ``],
+    [`HIBEX SINGAPORE PTE LTD`, `HIBEX SINGAPORE PTE LTD`, `L03`, ``, ``, ``],
     [
         `SEMICONDUCTOR TECHNOLOGIES SINGAPORE PTE LTD`,
         `SEMICONDUCTOR TECHNOLOGIES SINGAPORE PTE LTD`,
         `L05`,
         `Distributor/ Agent / Trading|OEM / Subcontractor`,
         `Automation|Testing|Quality Control|Others`,
+        `PCB and Equipment|Semiconductor|Loader, Un loader & Conveyor|Test and Measurement|Sensor, switch, Connector, Transformer, etc.|SMT and Equipment`,
     ],
     [
         `INGUN SOUTH EAST ASIA PTE LTD`,
@@ -932,20 +1091,23 @@ export const ExhibitorSheet: string[][] = [
         `L06`,
         ``,
         ``,
+        ``,
     ],
-    [`FAIR-RITE ASIA PTE LTD`, `FAIR-RITE ASIA PTE LTD`, `L07`, ``, ``],
+    [`FAIR-RITE ASIA PTE LTD`, `FAIR-RITE ASIA PTE LTD`, `L07`, ``, ``, ``],
     [
         `POLAR INSTRUMENTS (ASIA PACIFIC) PTE LTD.`,
         `POLAR INSTRUMENTS (ASIA PACIFIC) PTE LTD.`,
         `L08`,
         ``,
         ``,
+        ``,
     ],
-    [`INOUT ENTERPRISE PTE LTD`, `INOUT ENTERPRISE PTE LTD`, `L09`, ``, ``],
+    [`INOUT ENTERPRISE PTE LTD`, `INOUT ENTERPRISE PTE LTD`, `L09`, ``, ``, ``],
     [
         `ALLIED VISION TECHNOLOGIES ASIA PTE LTD`,
         `ALLIED VISION TECHNOLOGIES ASIA PTE LTD`,
         `L10`,
+        ``,
         ``,
         ``,
     ],
@@ -955,11 +1117,13 @@ export const ExhibitorSheet: string[][] = [
         `L13`,
         `Distributor/ Agent / Trading`,
         `Mobile|Telecommunication|Automotive electronics|Automation|Testing|Quality Control`,
+        `Semiconductor|Reflow Oven|Wave Solder Machine|SMT and Equipment`,
     ],
     [
         `WKK DISTRIBUTION (SINGAPORE) PTE LTD`,
         `WKK DISTRIBUTION (SINGAPORE) PTE LTD`,
         `L14`,
+        ``,
         ``,
         ``,
     ],
@@ -969,11 +1133,13 @@ export const ExhibitorSheet: string[][] = [
         `L19`,
         ``,
         ``,
+        ``,
     ],
     [
         `SHENZHEN SECOND INTELLIGENT EQUIPMENT CO., LTD.`,
         `SHENZHEN SECOND INTELLIGENT EQUIPMENT CO., LTD.`,
         `L20`,
+        ``,
         ``,
         ``,
     ],
@@ -983,11 +1149,13 @@ export const ExhibitorSheet: string[][] = [
         `L23`,
         ``,
         ``,
+        ``,
     ],
     [
         `SHENZHEN GLGNET ELECTRONICS CO.,LTD`,
         `SHENZHEN GLGNET ELECTRONICS CO.,LTD`,
         `L24`,
+        ``,
         ``,
         ``,
     ],
@@ -997,6 +1165,7 @@ export const ExhibitorSheet: string[][] = [
         `L29`,
         ``,
         ``,
+        ``,
     ],
     [
         `CENTIFORCE INSTRUMENTS PTE LTD`,
@@ -1004,14 +1173,23 @@ export const ExhibitorSheet: string[][] = [
         `M02`,
         `Distributor/ Agent / Trading|Manufacturer`,
         `Automotive electronics|Electronic components|Electronic assembly|Testing|Quality Control|Machinery`,
+        `Test and Measurement|Electronics Manufacturing Services`,
     ],
-    [`FUJIPOLY SINGAPORE PTE LTD`, `FUJIPOLY SINGAPORE PTE LTD`, `M04`, ``, ``],
+    [
+        `FUJIPOLY SINGAPORE PTE LTD`,
+        `FUJIPOLY SINGAPORE PTE LTD`,
+        `M04`,
+        ``,
+        ``,
+        ``,
+    ],
     [
         `INTERFLUX SINGAPORE PTE LTD`,
         `INTERFLUX SINGAPORE PTE LTD`,
         `M05`,
         `Distributor/ Agent / Trading`,
         `Home Appliance|Mobile|Telecommunication|Automotive electronics|Computer & accessories|Automation|Electronic assembly|Smart Electronics|LED|Lightning device`,
+        `PCB and Equipment|Wave Solder Machine|Dispenser|Solder paste|Electronics Manufacturing Services|Others|SMT and Equipment`,
     ],
     [
         `JIT INDUSTRIAL ASIA PTE. LTD`,
@@ -1019,19 +1197,29 @@ export const ExhibitorSheet: string[][] = [
         `M06`,
         `Distributor/ Agent / Trading`,
         `Home Appliance|Mobile|Telecommunication|Automotive electronics|Automation|Electronic assembly|LED|Lightning device`,
+        `SMT and Equipment|PCB and Equipment|Semiconductor|Auto Insertion Machine|Loader, Un loader & Conveyor|Reflow Oven|Wave Solder Machine|Auto Optical Inspection Machine (AOI)|Dispenser|Solder paste`,
     ],
-    [`QUALITEK SINGAPORE PTE LTD`, `QUALITEK SINGAPORE PTE LTD`, `M07`, ``, ``],
+    [
+        `QUALITEK SINGAPORE PTE LTD`,
+        `QUALITEK SINGAPORE PTE LTD`,
+        `M07`,
+        ``,
+        ``,
+        ``,
+    ],
     [
         `SUZHOU SAMON TECHNOLOGY CO., LTD`,
         `SUZHOU SAMON TECHNOLOGY CO., LTD`,
         `M08`,
         `Manufacturer`,
         `Mobile|Automotive electronics|Automation|Electronic assembly|Machinery`,
+        `PCB and Equipment|IC and equipment|Semiconductor|Printer|Auto Optical Inspection Machine (AOI)|Dispenser|Software|System|SMT and Equipment`,
     ],
     [
         `WFYEAR ELECTRONICS TECHNOLOGY CO., LTD.`,
         `WFYEAR ELECTRONICS TECHNOLOGY CO., LTD.`,
         `M09`,
+        ``,
         ``,
         ``,
     ],
@@ -1041,11 +1229,13 @@ export const ExhibitorSheet: string[][] = [
         `M11`,
         ``,
         ``,
+        ``,
     ],
     [
         `QUZHOU DONGYE CHEMICAL TECHNOLOGY CO.,LTD.`,
         `QUZHOU DONGYE CHEMICAL TECHNOLOGY CO.,LTD.`,
         `M12`,
+        ``,
         ``,
         ``,
     ],
@@ -1055,11 +1245,13 @@ export const ExhibitorSheet: string[][] = [
         `M13`,
         `Manufacturer`,
         `Electronic components|Smart Electronics`,
+        `PCB and Equipment|Printer|Auto Insertion Machine|Sensor, switch, Connector, Transformer, etc.|Robotics`,
     ],
     [
         `SHENZHEN SUNLORD ELECTRONICS CO., LTD.`,
         `SHENZHEN SUNLORD ELECTRONICS CO., LTD.`,
         `M14`,
+        ``,
         ``,
         ``,
     ],
@@ -1069,6 +1261,7 @@ export const ExhibitorSheet: string[][] = [
         `N01`,
         ``,
         ``,
+        ``,
     ],
     [
         `CONG TY TNHH CONG NGHE L&S VIET NAM / L&S TECH VINA CO., LTD`,
@@ -1076,11 +1269,13 @@ export const ExhibitorSheet: string[][] = [
         `N02`,
         `Distributor/ Agent / Trading|Exporter|Importer|Manufacturer`,
         `Mobile|Telecommunication|Automotive electronics|Electronic components|Optical Instrument & Equipment|Smart Electronics|Testing|Quality Control|Machinery`,
+        `PCB and Equipment|Printer|Test and Measurement|Electronics Manufacturing Services|SMT and Equipment`,
     ],
     [
         `HZO VIETNAM COMPANY LIMITED`,
         `HZO VIETNAM COMPANY LIMITED`,
         `N04`,
+        ``,
         ``,
         ``,
     ],
@@ -1090,11 +1285,13 @@ export const ExhibitorSheet: string[][] = [
         `N05`,
         `Manufacturer`,
         `Electronic assembly`,
+        `Solder paste`,
     ],
     [
         `EPI VIETNAM TECHNOLOGIES CO., LTD`,
         `EPI VIETNAM TECHNOLOGIES CO., LTD`,
         `N06`,
+        ``,
         ``,
         ``,
     ],
@@ -1104,11 +1301,13 @@ export const ExhibitorSheet: string[][] = [
         `N07`,
         `Manufacturer`,
         `Automotive electronics|Telecommunication|Electronic components`,
+        `Robotics`,
     ],
     [
         `WIT VIET NAM COMPANY LIMITED`,
         `WIT VIET NAM COMPANY LIMITED`,
         `N09`,
+        ``,
         ``,
         ``,
     ],
@@ -1118,11 +1317,13 @@ export const ExhibitorSheet: string[][] = [
         `N10`,
         `Distributor/ Agent / Trading`,
         `Automotive electronics|Electric power|Cable|Automation|Electronic components|Testing|Quality Control`,
+        `PCB and Equipment|IC and equipment|Semiconductor|Test and Measurement`,
     ],
     [
         `XT XING TECHNOLOGIES SINGAPORE PTE LTD`,
         `XT XING TECHNOLOGIES SINGAPORE PTE LTD`,
         `N11`,
+        ``,
         ``,
         ``,
     ],
@@ -1132,11 +1333,13 @@ export const ExhibitorSheet: string[][] = [
         `N13`,
         `Distributor/ Agent / Trading|Exporter|Importer|Manufacturer|OEM / Subcontractor`,
         `Automotive electronics|Electric power|Cable|Automation|Electronic assembly|Testing|Quality Control|Machinery`,
+        `SMT and Equipment|PCB and Equipment|IC and equipment|Semiconductor|Test and Measurement|Electronics Manufacturing Services|Software|System`,
     ],
     [
         `HOLY STONE HOLDINGS (SINGAPORE) PTE LTD`,
         `HOLY STONE HOLDINGS (SINGAPORE) PTE LTD`,
         `N14`,
+        ``,
         ``,
         ``,
     ],
@@ -1146,6 +1349,7 @@ export const ExhibitorSheet: string[][] = [
         `P01`,
         `Distributor/ Agent / Trading`,
         `Home Appliance|Mobile|Telecommunication|Automotive electronics|Computer & accessories|Automation|Electronic components|Optical Instrument & Equipment|Testing|Quality Control|Audio|Visual Equipment|Designing|Consulting|Financing|Machinery|Others`,
+        `Semiconductor|Test and Measurement|Others`,
     ],
     [
         `TRANSFER MULTISORT ELEKTRONIK SP. Z O.O.`,
@@ -1153,11 +1357,13 @@ export const ExhibitorSheet: string[][] = [
         `P03`,
         `Distributor/ Agent / Trading`,
         `Telecommunication|Automotive electronics|Electric power|Cable|Computer & accessories|Automation|Electronic components|Smart Electronics|LED|Lightning device|Audio|Visual Equipment`,
+        `PCB and Equipment|Semiconductor|Sensor, switch, Connector, Transformer, etc.|Solder paste|Robotics|SMT and Equipment`,
     ],
     [
         `SBB MEDICAL SERVICE JSC`,
         `SBB MEDICAL SERVICE JSC`,
         `P05`,
+        `Others`,
         `Others`,
         `Others`,
     ],
@@ -1167,6 +1373,7 @@ export const ExhibitorSheet: string[][] = [
         `P07`,
         `Manufacturer|OEM / Subcontractor`,
         `Electronic components`,
+        `Electronics Manufacturing Services`,
     ],
     [
         `ZHONGSHAN GUBANG ORGANIC SILICON MATERIAL CO,LTD`,
@@ -1174,6 +1381,7 @@ export const ExhibitorSheet: string[][] = [
         `P08`,
         `Manufacturer`,
         `Electronic assembly`,
+        `Others`,
     ],
     [
         `DONGGUANG XINKE ELECTRONICS TECHNIQUE LIMITED COMPANY`,
@@ -1181,6 +1389,7 @@ export const ExhibitorSheet: string[][] = [
         `P09`,
         `Manufacturer`,
         `Electric power|Cable`,
+        `PCB and Equipment`,
     ],
     [
         `ZHONGSHAN DAOHENG RELAY CO., LTD.`,
@@ -1188,6 +1397,7 @@ export const ExhibitorSheet: string[][] = [
         `P10`,
         `Manufacturer`,
         `Home Appliance|Telecommunication|Mobile|Electronic components|Electronic assembly`,
+        `Semiconductor|Sensor, switch, Connector, Transformer, etc.|Electronics Manufacturing Services`,
     ],
     [
         `SHENZHEN JINGXIN ELECTRONIC TECHNOLOGY CO., LTD.`,
@@ -1195,6 +1405,7 @@ export const ExhibitorSheet: string[][] = [
         `P11`,
         `Manufacturer`,
         `Electronic assembly`,
+        `Electronics Manufacturing Services`,
     ],
     [
         `YIYANG HETIAN ELECTRONIC CO.,LTD`,
@@ -1202,6 +1413,7 @@ export const ExhibitorSheet: string[][] = [
         `P12`,
         `Manufacturer`,
         `Electronic components`,
+        `Semiconductor`,
     ],
     [
         `YUANHUI ELECTRONIC TECHNOLOGY (JIANGSU)CO.,LTD`,
@@ -1209,6 +1421,7 @@ export const ExhibitorSheet: string[][] = [
         `P13`,
         `Manufacturer`,
         `Electronic components`,
+        `SMT and Equipment`,
     ],
     [
         `KUNSHAN DERSUN PRECISION MOULD CO.,LTD`,
@@ -1216,6 +1429,7 @@ export const ExhibitorSheet: string[][] = [
         `P14`,
         `Manufacturer`,
         `Electronic components`,
+        `Semiconductor`,
     ],
     [
         `SHENZHEN ATTEN TECHNOLOGY CO., LTD.`,
@@ -1223,11 +1437,13 @@ export const ExhibitorSheet: string[][] = [
         `P15`,
         `Manufacturer`,
         `Electronic components`,
+        `SMT and Equipment`,
     ],
     [
         `SUZHOU MYESDE ULTRA CLEAN TECHNOLOGY CO,.LTD`,
         `SUZHOU MYESDE ULTRA CLEAN TECHNOLOGY CO,.LTD`,
         `P17`,
+        ``,
         ``,
         ``,
     ],
@@ -1237,15 +1453,24 @@ export const ExhibitorSheet: string[][] = [
         `P19`,
         ``,
         ``,
+        ``,
     ],
-    [`FAITH SHINE CORP. (TAIWAN)`, `FAITH SHINE CORP. (TAIWAN)`, `Q01`, ``, ``],
-    [`MOUSER ELECTRONICS`, `MOUSER ELECTRONICS`, `Q02`, ``, ``],
+    [
+        `FAITH SHINE CORP. (TAIWAN)`,
+        `FAITH SHINE CORP. (TAIWAN)`,
+        `Q01`,
+        ``,
+        ``,
+        ``,
+    ],
+    [`MOUSER ELECTRONICS`, `MOUSER ELECTRONICS`, `Q02`, ``, ``, ``],
     [
         `ORIENT ELECTRONICS INC.`,
         `ORIENT ELECTRONICS INC.`,
         `Q03`,
         `Exporter|Manufacturer`,
         `Telecommunication|Automotive electronics|Automation|Electronic components|Electronic assembly|Machinery`,
+        `PCB and Equipment|Semiconductor|Auto Insertion Machine|Test and Measurement|Sensor, switch, Connector, Transformer, etc.|Electronics Manufacturing Services|Robotics|SMT and Equipment`,
     ],
     [
         `VIETNAM IBE LASER TECHNOLOGY CO., LTD.`,
@@ -1253,11 +1478,13 @@ export const ExhibitorSheet: string[][] = [
         `Q05`,
         `Manufacturer|OEM / Subcontractor`,
         ``,
+        `PCB and Equipment|IC and equipment`,
     ],
     [
         `A-SUNG INTERNATIONAL VINA COMPANY LIMITED`,
         `A-SUNG INTERNATIONAL VINA COMPANY LIMITED`,
         `Q06`,
+        ``,
         ``,
         ``,
     ],
@@ -1267,6 +1494,7 @@ export const ExhibitorSheet: string[][] = [
         `S02`,
         ``,
         ``,
+        ``,
     ],
     [
         `EXCEL CELL ELECTRONIC CO., LTD.`,
@@ -1274,11 +1502,13 @@ export const ExhibitorSheet: string[][] = [
         `S04`,
         `Manufacturer`,
         `Home Appliance|Telecommunication|Automotive electronics|Automation|Electronic components`,
+        `Sensor, switch, Connector, Transformer, etc.|Electronics Manufacturing Services`,
     ],
     [
         `SHENMAO TECHNOLOGY VIET NAM COMPANY LIMITED`,
         `SHENMAO TECHNOLOGY VIET NAM COMPANY LIMITED`,
         `S06`,
+        ``,
         ``,
         ``,
     ],
@@ -1288,6 +1518,7 @@ export const ExhibitorSheet: string[][] = [
         `T01`,
         `Distributor/ Agent / Trading|Exporter|Importer`,
         `Automotive electronics|Electric power|Cable|Automation|Electronic components|Electronic assembly|Optical Instrument & Equipment|Smart Electronics|Machinery`,
+        `IC and equipment|Auto Optical Inspection Machine (AOI)|Test and Measurement|Sensor, switch, Connector, Transformer, etc.`,
     ],
     [
         `BEIJING MEGAROBO TECHNOLOGIES CO., LTD.`,
@@ -1295,11 +1526,13 @@ export const ExhibitorSheet: string[][] = [
         `T02`,
         `Distributor/ Agent / Trading|Manufacturer|OEM / Subcontractor`,
         `Automotive electronics|Electronic assembly|Optical Instrument & Equipment|Smart Electronics`,
+        `Semiconductor|Printer|Auto Optical Inspection Machine (AOI)|Dispenser|Electronics Manufacturing Services`,
     ],
     [
         `ARLITECH ELECTRONIC VIET NAM COMPANY LIMITED`,
         `ARLITECH ELECTRONIC VIET NAM COMPANY LIMITED`,
         `T06`,
+        ``,
         ``,
         ``,
     ],
@@ -1309,6 +1542,7 @@ export const ExhibitorSheet: string[][] = [
         `U02`,
         ``,
         ``,
+        ``,
     ],
     [
         `SUZHOU LIEADI INTELLIGENT EQUIPMENT CO LTD`,
@@ -1316,6 +1550,7 @@ export const ExhibitorSheet: string[][] = [
         `U05`,
         `Distributor/ Agent / Trading|Exporter|Manufacturer`,
         `Automotive electronics|Electronic components|Testing|Quality Control|LED|Lightning device`,
+        `IC and equipment|Semiconductor|Reflow Oven|Test and Measurement|SMT and Equipment`,
     ],
     [
         `AIXIN TECHNOLOGY (SHENZHEN) LIMITED`,
@@ -1323,6 +1558,7 @@ export const ExhibitorSheet: string[][] = [
         `U06`,
         `Distributor/ Agent / Trading|Importer|OEM / Subcontractor|Others`,
         `Electronic components|Electronic assembly|Smart Electronics|Machinery|Others`,
+        `IC and equipment|Semiconductor|Test and Measurement|Sensor, switch, Connector, Transformer, etc.`,
     ],
     [
         `SUZHOU WINTEK EQUIPMENT TECHNOLOGY CO LTD`,
@@ -1330,11 +1566,13 @@ export const ExhibitorSheet: string[][] = [
         `V01`,
         `Others`,
         `Machinery|Others`,
+        `SMT and Equipment|PCB and Equipment|IC and equipment|Semiconductor|Printer|Auto Insertion Machine|Loader, Un loader & Conveyor|Reflow Oven|Wave Solder Machine|Auto Optical Inspection Machine (AOI)|Test and Measurement|Sensor, switch, Connector, Transformer, etc.|Electronics Manufacturing Services|Software|System|Robotics|Others`,
     ],
     [
         `JIANGSU CCPIT INTERNATIONAL CONFERENCE & EXHIBITION CO.,LTD. VIETXIN VIETNAM TECHNOLOGY COMPANY LIMITED`,
         `JIANGSU CCPIT INTERNATIONAL CONFERENCE & EXHIBITION CO.,LTD. VIETXIN VIETNAM TECHNOLOGY COMPANY LIMITED`,
         `V01,U05`,
+        ``,
         ``,
         ``,
     ],
@@ -1344,6 +1582,7 @@ export const ExhibitorSheet: string[][] = [
         `V02`,
         `Manufacturer`,
         `Automotive electronics|Electronic components|Electronic assembly`,
+        `Sensor, switch, Connector, Transformer, etc.`,
     ],
     [
         `VISCOM MACHINE VISION PTE LTD`,
@@ -1351,6 +1590,7 @@ export const ExhibitorSheet: string[][] = [
         `V04`,
         `Manufacturer`,
         `Automotive electronics|Computer & accessories|Automation|Electronic components|Electronic assembly|Optical Instrument & Equipment|Smart Electronics|Testing|Quality Control`,
+        `PCB and Equipment|Semiconductor|Auto Optical Inspection Machine (AOI)|Test and Measurement|SMT and Equipment`,
     ],
     [
         `SHENZHEN PEACH AUTOMATION TECHNOLOGY CO., LTD.`,
@@ -1358,19 +1598,22 @@ export const ExhibitorSheet: string[][] = [
         `X01`,
         ``,
         ``,
+        ``,
     ],
-    [`WUJIANG TUOYAN CO.,LTD`, `WUJIANG TUOYAN CO.,LTD`, `X03`, ``, ``],
+    [`WUJIANG TUOYAN CO.,LTD`, `WUJIANG TUOYAN CO.,LTD`, `X03`, ``, ``, ``],
     [
         `SHENZHEN YAOHEXIN ELECTRONIC TECHNOLOGY CO. LTD`,
         `SHENZHEN YAOHEXIN ELECTRONIC TECHNOLOGY CO. LTD`,
         `X04`,
         `Distributor/ Agent / Trading|Importer|Manufacturer`,
         `Telecommunication|Electronic components|Electronic assembly`,
+        `PCB and Equipment|SMT and Equipment`,
     ],
     [
         `SHENZHEN ZDS AUTOMATION CO.,LTD`,
         `SHENZHEN ZDS AUTOMATION CO.,LTD`,
         `X05`,
+        ``,
         ``,
         ``,
     ],
@@ -1380,6 +1623,7 @@ export const ExhibitorSheet: string[][] = [
         `X06`,
         `Distributor/ Agent / Trading|Manufacturer|OEM / Subcontractor`,
         `Home Appliance|Mobile|Telecommunication|Automotive electronics|Electric power|Cable|Computer & accessories|Automation|Electronic components|Electronic assembly|Optical Instrument & Equipment|Smart Electronics|Testing|Quality Control|LED|Lightning device|Audio|Visual Equipment|Association|Organization|Designing|Consulting|Financing|Machinery|Others`,
+        `SMT and Equipment|PCB and Equipment|Semiconductor|Reflow Oven|Test and Measurement|Solder paste|Software|System`,
     ],
     [
         `SHENZHEN KANGHONGJIN ELECTRONIC CO., LTD`,
@@ -1387,11 +1631,13 @@ export const ExhibitorSheet: string[][] = [
         `X07`,
         `Manufacturer`,
         `Electronic assembly`,
+        `SMT and Equipment`,
     ],
     [
         `DONGGUAN LONGSHENGFA ANTI-STATIC PRODUCTS CO LTD`,
         `DONGGUAN LONGSHENGFA ANTI-STATIC PRODUCTS CO LTD`,
         `X08`,
+        ``,
         ``,
         ``,
     ],
@@ -1401,11 +1647,13 @@ export const ExhibitorSheet: string[][] = [
         `X09`,
         ``,
         ``,
+        ``,
     ],
     [
         `SHENZHEN KERUN OPTOELECTRONICS CO.LTD`,
         `SHENZHEN KERUN OPTOELECTRONICS CO.LTD`,
         `X10`,
+        ``,
         ``,
         ``,
     ],
@@ -1415,11 +1663,13 @@ export const ExhibitorSheet: string[][] = [
         `X11`,
         `Distributor/ Agent / Trading|Importer|Manufacturer`,
         `Electronic assembly|Testing|Quality Control`,
+        `Test and Measurement|Sensor, switch, Connector, Transformer, etc.`,
     ],
     [
         `SHENZHEN HUAXIAN OPTICAL INSTRUMENT CO., LTD`,
         `SHENZHEN HUAXIAN OPTICAL INSTRUMENT CO., LTD`,
         `X12`,
+        ``,
         ``,
         ``,
     ],
@@ -1429,15 +1679,17 @@ export const ExhibitorSheet: string[][] = [
         `X14`,
         `Distributor/ Agent / Trading|Exporter`,
         `Home Appliance|Automotive electronics|Computer & accessories|Smart Electronics|Audio|Visual Equipment`,
+        `IC and equipment|Semiconductor`,
     ],
-    [`SUNGSAN HITECH`, `SUNGSAN HITECH`, `Y01`, ``, ``],
-    [`LEO CO LTD`, `LEO CO LTD`, `Y02`, `Manufacturer`, `Others`],
+    [`SUNGSAN HITECH`, `SUNGSAN HITECH`, `Y01`, ``, ``, ``],
+    [`LEO CO LTD`, `LEO CO LTD`, `Y02`, `Manufacturer`, `Others`, `Others`],
     [
         `CO-MS LTD`,
         `CO-MS CO., LTD.`,
         `Y03`,
         `Manufacturer|OEM / Subcontractor`,
         `Mobile|Automotive electronics|Automation|Electronic assembly|Optical Instrument & Equipment|Testing|Quality Control|LED|Lightning device|Machinery`,
+        `SMT and Equipment|PCB and Equipment|Semiconductor|Auto Insertion Machine|Loader, Un loader & Conveyor|Auto Optical Inspection Machine (AOI)|Test and Measurement|Sensor, switch, Connector, Transformer, etc.`,
     ],
     [
         `RFENGINE LTD`,
@@ -1445,6 +1697,7 @@ export const ExhibitorSheet: string[][] = [
         `Y04`,
         `Exporter|Manufacturer`,
         `Telecommunication|Automation|Smart Electronics`,
+        `PCB and Equipment|IC and equipment|Semiconductor|Auto Insertion Machine|Loader, Un loader & Conveyor|Test and Measurement|Sensor, switch, Connector, Transformer, etc.|SMT and Equipment`,
     ],
     [
         `GSF SOLUTION CO LTD`,
@@ -1452,6 +1705,7 @@ export const ExhibitorSheet: string[][] = [
         `Y05`,
         `Others`,
         `Telecommunication|Electronic components|Testing|Quality Control`,
+        `Semiconductor|Test and Measurement|Sensor, switch, Connector, Transformer, etc.|Software|System`,
     ],
     [
         `CHUNG CHEONG CO LTD`,
@@ -1459,8 +1713,8 @@ export const ExhibitorSheet: string[][] = [
         `Y06`,
         `Exporter|Manufacturer`,
         `Mobile|Machinery`,
+        `Robotics`,
     ],
-    [`SANKO FASTEM (THAILAND) LTD.`, `RX-Operation Dept`, ``, ``, ``],
 ];
 
 export const ExhibitorData: IExhibitorInfo[] = [
@@ -1487,6 +1741,10 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Visual Equipment",
         ],
         ppsCompanyActivity: ["Exporter", "Manufacturer"],
+        ppsMachineTechnologyProfile: [
+            "Sensor, switch, Connector, Transformer, etc.",
+            "Electronics Manufacturing Services",
+        ],
     },
     {
         id: "2",
@@ -1495,6 +1753,9 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "A02",
         ppsIndustryProfile: ["Electronic components"],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: [
+            "Sensor, switch, Connector, Transformer, etc.",
+        ],
     },
     {
         id: "3",
@@ -1503,6 +1764,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "A03",
         ppsIndustryProfile: ["Electronic components"],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: ["Electronics Manufacturing Services"],
     },
     {
         id: "4",
@@ -1511,6 +1773,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "A04",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "5",
@@ -1519,6 +1782,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "A05",
         ppsIndustryProfile: ["Electronic components"],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: ["Semiconductor"],
     },
     {
         id: "6",
@@ -1527,6 +1791,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "A06",
         ppsIndustryProfile: ["Electronic components"],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: ["Semiconductor"],
     },
     {
         id: "7",
@@ -1535,6 +1800,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "A07",
         ppsIndustryProfile: ["Electronic assembly"],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: ["Electronics Manufacturing Services"],
     },
     {
         id: "8",
@@ -1543,6 +1809,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "A08",
         ppsIndustryProfile: ["Electronic assembly"],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: ["Solder paste"],
     },
     {
         id: "9",
@@ -1559,6 +1826,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Smart Electronics",
         ],
         ppsCompanyActivity: ["Distributor/ Agent / Trading"],
+        ppsMachineTechnologyProfile: ["Semiconductor"],
     },
     {
         id: "10",
@@ -1567,6 +1835,11 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "A10",
         ppsIndustryProfile: ["Electronic components"],
         ppsCompanyActivity: ["Exporter", "Manufacturer"],
+        ppsMachineTechnologyProfile: [
+            "Auto Insertion Machine",
+            "Loader, Un loader & Conveyor",
+            "Test and Measurement",
+        ],
     },
     {
         id: "11",
@@ -1575,6 +1848,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "B10",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "12",
@@ -1583,6 +1857,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "B11",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "13",
@@ -1591,6 +1866,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "B12",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "14",
@@ -1599,6 +1875,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "B13",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "15",
@@ -1607,6 +1884,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "B14",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "16",
@@ -1627,6 +1905,16 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Others",
         ],
         ppsCompanyActivity: ["Distributor/ Agent / Trading"],
+        ppsMachineTechnologyProfile: [
+            "PCB and Equipment",
+            "IC and equipment",
+            "Semiconductor",
+            "Sensor, switch, Connector, Transformer, etc.",
+            "Electronics Manufacturing Services",
+            "Software",
+            "System",
+            "Others",
+        ],
     },
     {
         id: "17",
@@ -1635,6 +1923,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "B16",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "18",
@@ -1643,6 +1932,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "B17",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "19",
@@ -1651,6 +1941,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "C01",
         ppsIndustryProfile: ["Electronic components"],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: ["SMT and Equipment"],
     },
     {
         id: "20",
@@ -1668,6 +1959,11 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Lightning device",
         ],
         ppsCompanyActivity: ["Distributor/ Agent / Trading"],
+        ppsMachineTechnologyProfile: [
+            "IC and equipment",
+            "Semiconductor",
+            "Test and Measurement",
+        ],
     },
     {
         id: "21",
@@ -1676,6 +1972,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "C05A",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "22",
@@ -1684,6 +1981,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "C05B",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "23",
@@ -1716,6 +2014,19 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Manufacturer",
             "Others",
         ],
+        ppsMachineTechnologyProfile: [
+            "SMT and Equipment",
+            "PCB and Equipment",
+            "IC and equipment",
+            "Semiconductor",
+            "Printer",
+            "Loader, Un loader & Conveyor",
+            "Auto Optical Inspection Machine (AOI)",
+            "Dispenser",
+            "Solder paste",
+            "Electronics Manufacturing Services",
+            "Others",
+        ],
     },
     {
         id: "24",
@@ -1724,6 +2035,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "C11",
         ppsIndustryProfile: ["Machinery"],
         ppsCompanyActivity: ["Exporter", "Manufacturer", "OEM / Subcontractor"],
+        ppsMachineTechnologyProfile: ["Wave Solder Machine"],
     },
     {
         id: "25",
@@ -1742,6 +2054,15 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Electronic assembly",
         ],
         ppsCompanyActivity: ["Exporter", "Importer", "Manufacturer"],
+        ppsMachineTechnologyProfile: [
+            "Auto Insertion Machine",
+            "Reflow Oven",
+            "Auto Optical Inspection Machine (AOI)",
+            "Test and Measurement",
+            "Sensor, switch, Connector, Transformer, etc.",
+            "Electronics Manufacturing Services",
+            "Others",
+        ],
     },
     {
         id: "26",
@@ -1750,6 +2071,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "C14",
         ppsIndustryProfile: ["Optical Instrument & Equipment"],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: ["Auto Optical Inspection Machine (AOI)"],
     },
     {
         id: "27",
@@ -1758,6 +2080,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "C15",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "28",
@@ -1772,6 +2095,22 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Electronic components",
         ],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: [
+            "SMT and Equipment",
+            "PCB and Equipment",
+            "IC and equipment",
+            "Semiconductor",
+            "Printer",
+            "Auto Insertion Machine",
+            "Loader, Un loader & Conveyor",
+            "Wave Solder Machine",
+            "Auto Optical Inspection Machine (AOI)",
+            "Dispenser",
+            "Test and Measurement",
+            "Sensor, switch, Connector, Transformer, etc.",
+            "Solder paste",
+            "Electronics Manufacturing Services",
+        ],
     },
     {
         id: "29",
@@ -1792,6 +2131,15 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Lightning device",
         ],
         ppsCompanyActivity: ["Exporter", "Manufacturer", "OEM / Subcontractor"],
+        ppsMachineTechnologyProfile: [
+            "SMT and Equipment",
+            "Semiconductor",
+            "Printer",
+            "Reflow Oven",
+            "Wave Solder Machine",
+            "Dispenser",
+            "Test and Measurement",
+        ],
     },
     {
         id: "30",
@@ -1800,6 +2148,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "C19",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "31",
@@ -1808,6 +2157,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "C20",
         ppsIndustryProfile: ["Electronic components"],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: ["Electronics Manufacturing Services"],
     },
     {
         id: "32",
@@ -1822,6 +2172,19 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Others",
         ],
         ppsCompanyActivity: ["Exporter", "Manufacturer"],
+        ppsMachineTechnologyProfile: [
+            "PCB and Equipment",
+            "Printer",
+            "Loader, Un loader & Conveyor",
+            "Reflow Oven",
+            "Wave Solder Machine",
+            "Auto Optical Inspection Machine (AOI)",
+            "Dispenser",
+            "Test and Measurement",
+            "Electronics Manufacturing Services",
+            "Others",
+            "SMT and Equipment",
+        ],
     },
     {
         id: "33",
@@ -1830,6 +2193,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "C22",
         ppsIndustryProfile: ["Others"],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: ["Others"],
     },
     {
         id: "34",
@@ -1843,6 +2207,10 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Electronic assembly",
         ],
         ppsCompanyActivity: ["Exporter", "Manufacturer"],
+        ppsMachineTechnologyProfile: [
+            "Sensor, switch, Connector, Transformer, etc.",
+            "Electronics Manufacturing Services",
+        ],
     },
     {
         id: "35",
@@ -1851,6 +2219,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "C25",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "36",
@@ -1865,6 +2234,10 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Smart Electronics",
         ],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: [
+            "Sensor, switch, Connector, Transformer, etc.",
+            "Electronics Manufacturing Services",
+        ],
     },
     {
         id: "37",
@@ -1878,6 +2251,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Manufacturer",
             "OEM / Subcontractor",
         ],
+        ppsMachineTechnologyProfile: ["Semiconductor"],
     },
     {
         id: "38",
@@ -1909,6 +2283,12 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Machinery",
         ],
         ppsCompanyActivity: ["Exporter", "Manufacturer"],
+        ppsMachineTechnologyProfile: [
+            "SMT and Equipment",
+            "Auto Optical Inspection Machine (AOI)",
+            "Test and Measurement",
+            "Electronics Manufacturing Services",
+        ],
     },
     {
         id: "39",
@@ -1917,6 +2297,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "D01 - D10 ; E29",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "40",
@@ -1941,6 +2322,13 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Manufacturer",
             "OEM / Subcontractor",
         ],
+        ppsMachineTechnologyProfile: [
+            "SMT and Equipment",
+            "PCB and Equipment",
+            "Printer",
+            "Auto Insertion Machine",
+            "Test and Measurement",
+        ],
     },
     {
         id: "41",
@@ -1949,6 +2337,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "D03",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "42",
@@ -1974,6 +2363,13 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Visual Equipment",
         ],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: [
+            "SMT and Equipment",
+            "PCB and Equipment",
+            "Sensor, switch, Connector, Transformer, etc.",
+            "Electronics Manufacturing Services",
+            "Robotics",
+        ],
     },
     {
         id: "43",
@@ -2000,6 +2396,14 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Manufacturer",
             "OEM / Subcontractor",
         ],
+        ppsMachineTechnologyProfile: [
+            "SMT and Equipment",
+            "PCB and Equipment",
+            "IC and equipment",
+            "Semiconductor",
+            "Sensor, switch, Connector, Transformer, etc.",
+            "Others",
+        ],
     },
     {
         id: "44",
@@ -2008,6 +2412,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "D06",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "45",
@@ -2020,6 +2425,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Quality Control",
         ],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: ["IC and equipment", "Semiconductor"],
     },
     {
         id: "46",
@@ -2039,6 +2445,12 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Smart Electronics",
         ],
         ppsCompanyActivity: ["Exporter", "Manufacturer"],
+        ppsMachineTechnologyProfile: [
+            "PCB and Equipment",
+            "Sensor, switch, Connector, Transformer, etc.",
+            "Electronics Manufacturing Services",
+            "SMT and Equipment",
+        ],
     },
     {
         id: "47",
@@ -2047,6 +2459,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "D09",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "48",
@@ -2063,6 +2476,11 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Electronic assembly",
         ],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: [
+            "Dispenser",
+            "Electronics Manufacturing Services",
+            "Robotics",
+        ],
     },
     {
         id: "49",
@@ -2071,6 +2489,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "D11",
         ppsIndustryProfile: ["Automation", "Machinery", "Others"],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: ["Robotics", "Others"],
     },
     {
         id: "50",
@@ -2079,6 +2498,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "D12",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "51",
@@ -2087,6 +2507,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "E01",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "52",
@@ -2095,6 +2516,9 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "E02",
         ppsIndustryProfile: ["Electronic components"],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: [
+            "Sensor, switch, Connector, Transformer, etc.",
+        ],
     },
     {
         id: "53",
@@ -2103,6 +2527,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "E03",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "54",
@@ -2111,6 +2536,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "E04",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "55",
@@ -2141,6 +2567,17 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Financing",
         ],
         ppsCompanyActivity: ["Exporter", "Manufacturer"],
+        ppsMachineTechnologyProfile: [
+            "SMT and Equipment",
+            "PCB and Equipment",
+            "IC and equipment",
+            "Semiconductor",
+            "Dispenser",
+            "Test and Measurement",
+            "Sensor, switch, Connector, Transformer, etc.",
+            "Solder paste",
+            "Electronics Manufacturing Services",
+        ],
     },
     {
         id: "56",
@@ -2149,6 +2586,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "E06",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "57",
@@ -2157,6 +2595,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "E07",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "58",
@@ -2165,6 +2604,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "E08",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "59",
@@ -2173,6 +2613,11 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "E09",
         ppsIndustryProfile: ["Electronic components"],
         ppsCompanyActivity: ["Distributor/ Agent / Trading"],
+        ppsMachineTechnologyProfile: [
+            "Semiconductor",
+            "Sensor, switch, Connector, Transformer, etc.",
+            "Others",
+        ],
     },
     {
         id: "60",
@@ -2181,6 +2626,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "E10",
         ppsIndustryProfile: ["Electronic components", "Machinery"],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: ["Electronics Manufacturing Services"],
     },
     {
         id: "61",
@@ -2202,6 +2648,13 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Manufacturer",
             "OEM / Subcontractor",
         ],
+        ppsMachineTechnologyProfile: [
+            "Sensor, switch, Connector, Transformer, etc.",
+            "Electronics Manufacturing Services",
+            "Software",
+            "System",
+            "SMT and Equipment",
+        ],
     },
     {
         id: "62",
@@ -2210,6 +2663,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "E17",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "63",
@@ -2234,6 +2688,13 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Machinery",
         ],
         ppsCompanyActivity: ["Exporter", "Manufacturer", "OEM / Subcontractor"],
+        ppsMachineTechnologyProfile: [
+            "SMT and Equipment",
+            "PCB and Equipment",
+            "Semiconductor",
+            "Sensor, switch, Connector, Transformer, etc.",
+            "Electronics Manufacturing Services",
+        ],
     },
     {
         id: "64",
@@ -2242,6 +2703,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "E19",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "65",
@@ -2250,6 +2712,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "E20",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "66",
@@ -2265,6 +2728,10 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Smart Electronics",
         ],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: [
+            "Sensor, switch, Connector, Transformer, etc.",
+            "Electronics Manufacturing Services",
+        ],
     },
     {
         id: "67",
@@ -2279,6 +2746,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Manufacturer",
             "OEM / Subcontractor",
         ],
+        ppsMachineTechnologyProfile: ["Semiconductor"],
     },
     {
         id: "68",
@@ -2287,6 +2755,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "E23",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "69",
@@ -2301,6 +2770,10 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Lightning device",
         ],
         ppsCompanyActivity: ["Exporter", "Manufacturer"],
+        ppsMachineTechnologyProfile: [
+            "Sensor, switch, Connector, Transformer, etc.",
+            "Electronics Manufacturing Services",
+        ],
     },
     {
         id: "70",
@@ -2309,6 +2782,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "E29",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "71",
@@ -2322,6 +2796,10 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Others",
         ],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: [
+            "Sensor, switch, Connector, Transformer, etc.",
+            "Others",
+        ],
     },
     {
         id: "72",
@@ -2344,6 +2822,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Lightning device",
         ],
         ppsCompanyActivity: ["Distributor/ Agent / Trading", "Importer"],
+        ppsMachineTechnologyProfile: ["Others"],
     },
     {
         id: "73",
@@ -2367,6 +2846,12 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Manufacturer",
             "OEM / Subcontractor",
         ],
+        ppsMachineTechnologyProfile: [
+            "PCB and Equipment",
+            "Electronics Manufacturing Services",
+            "Others",
+            "SMT and Equipment",
+        ],
     },
     {
         id: "74",
@@ -2385,6 +2870,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Lightning device",
         ],
         ppsCompanyActivity: ["Exporter", "Manufacturer"],
+        ppsMachineTechnologyProfile: ["Electronics Manufacturing Services"],
     },
     {
         id: "75",
@@ -2393,6 +2879,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "F06",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "76",
@@ -2416,6 +2903,9 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Machinery",
         ],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: [
+            "Sensor, switch, Connector, Transformer, etc.",
+        ],
     },
     {
         id: "77",
@@ -2424,6 +2914,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "F08",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "78",
@@ -2462,6 +2953,13 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Consulting",
             "Others",
         ],
+        ppsMachineTechnologyProfile: [
+            "PCB and Equipment",
+            "Test and Measurement",
+            "Sensor, switch, Connector, Transformer, etc.",
+            "Electronics Manufacturing Services",
+            "Others",
+        ],
     },
     {
         id: "79",
@@ -2470,6 +2968,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "F11",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "80",
@@ -2478,6 +2977,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "F12",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "81",
@@ -2486,6 +2986,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "F13",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "82",
@@ -2494,6 +2995,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "F14",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "83",
@@ -2502,6 +3004,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "F18",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "84",
@@ -2510,6 +3013,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "F19",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "85",
@@ -2527,6 +3031,10 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Smart Electronics",
         ],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: [
+            "PCB and Equipment",
+            "Electronics Manufacturing Services",
+        ],
     },
     {
         id: "86",
@@ -2572,6 +3080,27 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Consulting",
             "Others",
         ],
+        ppsMachineTechnologyProfile: [
+            "Wave Solder Machine",
+            "SMT and Equipment",
+            "PCB and Equipment",
+            "IC and equipment",
+            "Semiconductor",
+            "Printer",
+            "Auto Insertion Machine",
+            "Loader, Un loader & Conveyor",
+            "Reflow Oven",
+            "Dispenser",
+            "Test and Measurement",
+            "Sensor, switch, Connector, Transformer, etc.",
+            "Solder paste",
+            "Electronics Manufacturing Services",
+            "Software",
+            "System",
+            "Robotics",
+            "Others",
+            "Auto Optical Inspection Machine (AOI)",
+        ],
     },
     {
         id: "87",
@@ -2580,6 +3109,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "F23",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "88",
@@ -2588,6 +3118,12 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "F24",
         ppsIndustryProfile: ["Automation", "Machinery"],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: [
+            "PCB and Equipment",
+            "Test and Measurement",
+            "Robotics",
+            "SMT and Equipment",
+        ],
     },
     {
         id: "89",
@@ -2604,6 +3140,11 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Lightning device",
         ],
         ppsCompanyActivity: ["Distributor/ Agent / Trading", "Importer"],
+        ppsMachineTechnologyProfile: [
+            "IC and equipment",
+            "Semiconductor",
+            "Sensor, switch, Connector, Transformer, etc.",
+        ],
     },
     {
         id: "90",
@@ -2618,6 +3159,11 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Lightning device",
         ],
         ppsCompanyActivity: ["OEM / Subcontractor"],
+        ppsMachineTechnologyProfile: [
+            "PCB and Equipment",
+            "IC and equipment",
+            "SMT and Equipment",
+        ],
     },
     {
         id: "91",
@@ -2626,6 +3172,11 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "F30",
         ppsIndustryProfile: ["Automation", "Machinery"],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: [
+            "PCB and Equipment",
+            "Semiconductor",
+            "SMT and Equipment",
+        ],
     },
     {
         id: "92",
@@ -2649,6 +3200,18 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Visual Equipment",
         ],
         ppsCompanyActivity: ["Exporter", "Manufacturer"],
+        ppsMachineTechnologyProfile: [
+            "SMT and Equipment",
+            "PCB and Equipment",
+            "IC and equipment",
+            "Semiconductor",
+            "Printer",
+            "Reflow Oven",
+            "Wave Solder Machine",
+            "Sensor, switch, Connector, Transformer, etc.",
+            "Solder paste",
+            "Electronics Manufacturing Services",
+        ],
     },
     {
         id: "93",
@@ -2670,6 +3233,13 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Visual Equipment",
         ],
         ppsCompanyActivity: ["Manufacturer", "OEM / Subcontractor"],
+        ppsMachineTechnologyProfile: [
+            "Reflow Oven",
+            "Test and Measurement",
+            "Sensor, switch, Connector, Transformer, etc.",
+            "Electronics Manufacturing Services",
+            "Others",
+        ],
     },
     {
         id: "94",
@@ -2678,6 +3248,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "G04",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "95",
@@ -2686,6 +3257,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "G05",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "96",
@@ -2702,6 +3274,12 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Smart Electronics",
         ],
         ppsCompanyActivity: ["Distributor/ Agent / Trading"],
+        ppsMachineTechnologyProfile: [
+            "IC and equipment",
+            "Semiconductor",
+            "Sensor, switch, Connector, Transformer, etc.",
+            "Electronics Manufacturing Services",
+        ],
     },
     {
         id: "97",
@@ -2710,6 +3288,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "G07",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "98",
@@ -2721,6 +3300,10 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Distributor/ Agent / Trading",
             "Manufacturer",
             "OEM / Subcontractor",
+        ],
+        ppsMachineTechnologyProfile: [
+            "Electronics Manufacturing Services",
+            "Others",
         ],
     },
     {
@@ -2740,6 +3323,10 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Financing",
         ],
         ppsCompanyActivity: ["Manufacturer", "OEM / Subcontractor"],
+        ppsMachineTechnologyProfile: [
+            "Sensor, switch, Connector, Transformer, etc.",
+            "Electronics Manufacturing Services",
+        ],
     },
     {
         id: "100",
@@ -2748,6 +3335,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "G10",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "101",
@@ -2761,6 +3349,14 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Quality Control",
         ],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: [
+            "IC and equipment",
+            "Printer",
+            "Loader, Un loader & Conveyor",
+            "Auto Optical Inspection Machine (AOI)",
+            "Electronics Manufacturing Services",
+            "SMT and Equipment",
+        ],
     },
     {
         id: "102",
@@ -2774,6 +3370,10 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Electronic assembly",
         ],
         ppsCompanyActivity: ["Manufacturer", "OEM / Subcontractor"],
+        ppsMachineTechnologyProfile: [
+            "Sensor, switch, Connector, Transformer, etc.",
+            "Electronics Manufacturing Services",
+        ],
     },
     {
         id: "103",
@@ -2794,6 +3394,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "OEM / Subcontractor",
             "Others",
         ],
+        ppsMachineTechnologyProfile: ["Software", "System", "Robotics"],
     },
     {
         id: "104",
@@ -2816,6 +3417,13 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "OEM / Subcontractor",
             "Others",
         ],
+        ppsMachineTechnologyProfile: [
+            "SMT and Equipment",
+            "PCB and Equipment",
+            "Loader, Un loader & Conveyor",
+            "Software",
+            "System",
+        ],
     },
     {
         id: "105",
@@ -2830,6 +3438,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Smart Electronics",
         ],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: ["Robotics", "Others"],
     },
     {
         id: "106",
@@ -2838,6 +3447,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "G29",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "107",
@@ -2846,6 +3456,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "G30",
         ppsIndustryProfile: ["Others"],
         ppsCompanyActivity: ["Distributor/ Agent / Trading", "Manufacturer"],
+        ppsMachineTechnologyProfile: ["Others"],
     },
     {
         id: "108",
@@ -2854,6 +3465,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "H05",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "109",
@@ -2868,6 +3480,14 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Others",
         ],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: [
+            "PCB and Equipment",
+            "Solder paste",
+            "Electronics Manufacturing Services",
+            "Robotics",
+            "Others",
+            "SMT and Equipment",
+        ],
     },
     {
         id: "110",
@@ -2876,6 +3496,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "H19",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "111",
@@ -2884,6 +3505,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "H23",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "112",
@@ -2911,6 +3533,19 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Exporter",
             "Manufacturer",
         ],
+        ppsMachineTechnologyProfile: [
+            "SMT and Equipment",
+            "Semiconductor",
+            "Printer",
+            "Loader, Un loader & Conveyor",
+            "Reflow Oven",
+            "Auto Optical Inspection Machine (AOI)",
+            "Dispenser",
+            "Sensor, switch, Connector, Transformer, etc.",
+            "Solder paste",
+            "Electronics Manufacturing Services",
+            "Robotics",
+        ],
     },
     {
         id: "113",
@@ -2925,6 +3560,15 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Smart Electronics",
         ],
         ppsCompanyActivity: ["Distributor/ Agent / Trading", "Manufacturer"],
+        ppsMachineTechnologyProfile: [
+            "Printer",
+            "Reflow Oven",
+            "Wave Solder Machine",
+            "Electronics Manufacturing Services",
+            "Software",
+            "System",
+            "SMT and Equipment",
+        ],
     },
     {
         id: "114",
@@ -2937,6 +3581,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Machinery",
         ],
         ppsCompanyActivity: ["Importer", "Manufacturer"],
+        ppsMachineTechnologyProfile: ["Software", "System", "Robotics"],
     },
     {
         id: "115",
@@ -2945,6 +3590,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "I28",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "116",
@@ -2960,6 +3606,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Quality Control",
         ],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: ["Test and Measurement"],
     },
     {
         id: "117",
@@ -2968,6 +3615,12 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "I30",
         ppsIndustryProfile: ["Testing", "Quality Control", "Machinery"],
         ppsCompanyActivity: ["Distributor/ Agent / Trading"],
+        ppsMachineTechnologyProfile: [
+            "PCB and Equipment",
+            "Test and Measurement",
+            "Software",
+            "System",
+        ],
     },
     {
         id: "118",
@@ -2999,6 +3652,26 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Machinery",
         ],
         ppsCompanyActivity: ["Distributor/ Agent / Trading", "Manufacturer"],
+        ppsMachineTechnologyProfile: [
+            "SMT and Equipment",
+            "PCB and Equipment",
+            "IC and equipment",
+            "Semiconductor",
+            "Printer",
+            "Auto Insertion Machine",
+            "Loader, Un loader & Conveyor",
+            "Reflow Oven",
+            "Wave Solder Machine",
+            "Auto Optical Inspection Machine (AOI)",
+            "Dispenser",
+            "Test and Measurement",
+            "Solder paste",
+            "Electronics Manufacturing Services",
+            "Software",
+            "System",
+            "Robotics",
+            "Others",
+        ],
     },
     {
         id: "119",
@@ -3007,6 +3680,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "J13",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "120",
@@ -3015,6 +3689,17 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "J19",
         ppsIndustryProfile: ["Electronic assembly"],
         ppsCompanyActivity: ["Distributor/ Agent / Trading"],
+        ppsMachineTechnologyProfile: [
+            "Printer",
+            "Auto Insertion Machine",
+            "Loader, Un loader & Conveyor",
+            "Reflow Oven",
+            "Auto Optical Inspection Machine (AOI)",
+            "Dispenser",
+            "Test and Measurement",
+            "Robotics",
+            "SMT and Equipment",
+        ],
     },
     {
         id: "121",
@@ -3023,6 +3708,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "J22",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "122",
@@ -3067,6 +3753,27 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "EPC",
             "Consulting",
         ],
+        ppsMachineTechnologyProfile: [
+            "Wave Solder Machine",
+            "SMT and Equipment",
+            "PCB and Equipment",
+            "IC and equipment",
+            "Semiconductor",
+            "Printer",
+            "Auto Insertion Machine",
+            "Loader, Un loader & Conveyor",
+            "Reflow Oven",
+            "Dispenser",
+            "Test and Measurement",
+            "Sensor, switch, Connector, Transformer, etc.",
+            "Solder paste",
+            "Electronics Manufacturing Services",
+            "Software",
+            "System",
+            "Robotics",
+            "Others",
+            "Auto Optical Inspection Machine (AOI)",
+        ],
     },
     {
         id: "123",
@@ -3079,6 +3786,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Others",
         ],
         ppsCompanyActivity: ["Others"],
+        ppsMachineTechnologyProfile: ["Others"],
     },
     {
         id: "124",
@@ -3087,6 +3795,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "J27",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "125",
@@ -3095,6 +3804,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "J29",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "126",
@@ -3111,6 +3821,11 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Lightning device",
         ],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: [
+            "Electronics Manufacturing Services",
+            "Others",
+            "SMT and Equipment",
+        ],
     },
     {
         id: "127",
@@ -3119,6 +3834,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "K03",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "128",
@@ -3142,6 +3858,24 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Others",
         ],
         ppsCompanyActivity: ["Distributor/ Agent / Trading"],
+        ppsMachineTechnologyProfile: [
+            "SMT and Equipment",
+            "Semiconductor",
+            "Printer",
+            "Auto Insertion Machine",
+            "Loader, Un loader & Conveyor",
+            "Reflow Oven",
+            "Wave Solder Machine",
+            "Auto Optical Inspection Machine (AOI)",
+            "Dispenser",
+            "Test and Measurement",
+            "Solder paste",
+            "Electronics Manufacturing Services",
+            "Software",
+            "System",
+            "Robotics",
+            "Others",
+        ],
     },
     {
         id: "129",
@@ -3150,6 +3884,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "K05",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "130",
@@ -3158,6 +3893,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "K08",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "131",
@@ -3166,6 +3902,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "K10",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "132",
@@ -3174,6 +3911,10 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "K14",
         ppsIndustryProfile: ["Electronic components"],
         ppsCompanyActivity: ["Distributor/ Agent / Trading"],
+        ppsMachineTechnologyProfile: [
+            "Semiconductor",
+            "Electronics Manufacturing Services",
+        ],
     },
     {
         id: "133",
@@ -3182,6 +3923,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "K18",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "134",
@@ -3195,6 +3937,15 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Others",
         ],
         ppsCompanyActivity: ["Manufacturer", "Others"],
+        ppsMachineTechnologyProfile: [
+            "PCB and Equipment",
+            "Auto Optical Inspection Machine (AOI)",
+            "Test and Measurement",
+            "Software",
+            "System",
+            "Others",
+            "SMT and Equipment",
+        ],
     },
     {
         id: "135",
@@ -3210,6 +3961,12 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Financing",
         ],
         ppsCompanyActivity: ["Manufacturer", "OEM / Subcontractor"],
+        ppsMachineTechnologyProfile: [
+            "PCB and Equipment",
+            "Wave Solder Machine",
+            "Electronics Manufacturing Services",
+            "SMT and Equipment",
+        ],
     },
     {
         id: "136",
@@ -3226,6 +3983,18 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Others",
         ],
         ppsCompanyActivity: ["Distributor/ Agent / Trading"],
+        ppsMachineTechnologyProfile: [
+            "PCB and Equipment",
+            "IC and equipment",
+            "Semiconductor",
+            "Loader, Un loader & Conveyor",
+            "Auto Optical Inspection Machine (AOI)",
+            "Test and Measurement",
+            "Sensor, switch, Connector, Transformer, etc.",
+            "Electronics Manufacturing Services",
+            "Robotics",
+            "SMT and Equipment",
+        ],
     },
     {
         id: "137",
@@ -3234,6 +4003,16 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "K29",
         ppsIndustryProfile: ["Automation", "Machinery"],
         ppsCompanyActivity: ["Distributor/ Agent / Trading", "Manufacturer"],
+        ppsMachineTechnologyProfile: [
+            "PCB and Equipment",
+            "Semiconductor",
+            "Loader, Un loader & Conveyor",
+            "Reflow Oven",
+            "Wave Solder Machine",
+            "Dispenser",
+            "Solder paste",
+            "SMT and Equipment",
+        ],
     },
     {
         id: "138",
@@ -3242,6 +4021,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "L03",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "139",
@@ -3258,6 +4038,14 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Distributor/ Agent / Trading",
             "OEM / Subcontractor",
         ],
+        ppsMachineTechnologyProfile: [
+            "PCB and Equipment",
+            "Semiconductor",
+            "Loader, Un loader & Conveyor",
+            "Test and Measurement",
+            "Sensor, switch, Connector, Transformer, etc.",
+            "SMT and Equipment",
+        ],
     },
     {
         id: "140",
@@ -3266,6 +4054,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "L06",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "141",
@@ -3274,6 +4063,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "L07",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "142",
@@ -3282,6 +4072,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "L08",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "143",
@@ -3290,6 +4081,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "L09",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "144",
@@ -3298,6 +4090,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "L10",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "145",
@@ -3313,6 +4106,12 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Quality Control",
         ],
         ppsCompanyActivity: ["Distributor/ Agent / Trading"],
+        ppsMachineTechnologyProfile: [
+            "Semiconductor",
+            "Reflow Oven",
+            "Wave Solder Machine",
+            "SMT and Equipment",
+        ],
     },
     {
         id: "146",
@@ -3321,6 +4120,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "L14",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "147",
@@ -3329,6 +4129,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "L19",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "148",
@@ -3337,6 +4138,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "L20",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "149",
@@ -3345,6 +4147,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "L23",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "150",
@@ -3353,6 +4156,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "L24",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "151",
@@ -3361,6 +4165,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "L29",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "152",
@@ -3376,6 +4181,10 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Machinery",
         ],
         ppsCompanyActivity: ["Distributor/ Agent / Trading", "Manufacturer"],
+        ppsMachineTechnologyProfile: [
+            "Test and Measurement",
+            "Electronics Manufacturing Services",
+        ],
     },
     {
         id: "153",
@@ -3384,6 +4193,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "M04",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "154",
@@ -3403,6 +4213,15 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Lightning device",
         ],
         ppsCompanyActivity: ["Distributor/ Agent / Trading"],
+        ppsMachineTechnologyProfile: [
+            "PCB and Equipment",
+            "Wave Solder Machine",
+            "Dispenser",
+            "Solder paste",
+            "Electronics Manufacturing Services",
+            "Others",
+            "SMT and Equipment",
+        ],
     },
     {
         id: "155",
@@ -3420,6 +4239,18 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Lightning device",
         ],
         ppsCompanyActivity: ["Distributor/ Agent / Trading"],
+        ppsMachineTechnologyProfile: [
+            "SMT and Equipment",
+            "PCB and Equipment",
+            "Semiconductor",
+            "Auto Insertion Machine",
+            "Loader, Un loader & Conveyor",
+            "Reflow Oven",
+            "Wave Solder Machine",
+            "Auto Optical Inspection Machine (AOI)",
+            "Dispenser",
+            "Solder paste",
+        ],
     },
     {
         id: "156",
@@ -3428,6 +4259,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "M07",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "157",
@@ -3442,6 +4274,17 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Machinery",
         ],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: [
+            "PCB and Equipment",
+            "IC and equipment",
+            "Semiconductor",
+            "Printer",
+            "Auto Optical Inspection Machine (AOI)",
+            "Dispenser",
+            "Software",
+            "System",
+            "SMT and Equipment",
+        ],
     },
     {
         id: "158",
@@ -3450,6 +4293,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "M09",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "159",
@@ -3458,6 +4302,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "M11",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "160",
@@ -3466,6 +4311,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "M12",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "161",
@@ -3474,6 +4320,13 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "M13",
         ppsIndustryProfile: ["Electronic components", "Smart Electronics"],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: [
+            "PCB and Equipment",
+            "Printer",
+            "Auto Insertion Machine",
+            "Sensor, switch, Connector, Transformer, etc.",
+            "Robotics",
+        ],
     },
     {
         id: "162",
@@ -3482,6 +4335,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "M14",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "163",
@@ -3490,6 +4344,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "N01",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "164",
@@ -3515,6 +4370,13 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Importer",
             "Manufacturer",
         ],
+        ppsMachineTechnologyProfile: [
+            "PCB and Equipment",
+            "Printer",
+            "Test and Measurement",
+            "Electronics Manufacturing Services",
+            "SMT and Equipment",
+        ],
     },
     {
         id: "165",
@@ -3523,6 +4385,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "N04",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "166",
@@ -3531,6 +4394,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "N05",
         ppsIndustryProfile: ["Electronic assembly"],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: ["Solder paste"],
     },
     {
         id: "167",
@@ -3539,6 +4403,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "N06",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "168",
@@ -3551,6 +4416,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Electronic components",
         ],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: ["Robotics"],
     },
     {
         id: "169",
@@ -3559,6 +4425,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "N09",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "170",
@@ -3575,6 +4442,12 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Quality Control",
         ],
         ppsCompanyActivity: ["Distributor/ Agent / Trading"],
+        ppsMachineTechnologyProfile: [
+            "PCB and Equipment",
+            "IC and equipment",
+            "Semiconductor",
+            "Test and Measurement",
+        ],
     },
     {
         id: "171",
@@ -3583,6 +4456,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "N11",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "172",
@@ -3606,6 +4480,16 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Manufacturer",
             "OEM / Subcontractor",
         ],
+        ppsMachineTechnologyProfile: [
+            "SMT and Equipment",
+            "PCB and Equipment",
+            "IC and equipment",
+            "Semiconductor",
+            "Test and Measurement",
+            "Electronics Manufacturing Services",
+            "Software",
+            "System",
+        ],
     },
     {
         id: "173",
@@ -3614,6 +4498,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "N14",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "174",
@@ -3640,6 +4525,11 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Others",
         ],
         ppsCompanyActivity: ["Distributor/ Agent / Trading"],
+        ppsMachineTechnologyProfile: [
+            "Semiconductor",
+            "Test and Measurement",
+            "Others",
+        ],
     },
     {
         id: "175",
@@ -3661,6 +4551,14 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Visual Equipment",
         ],
         ppsCompanyActivity: ["Distributor/ Agent / Trading"],
+        ppsMachineTechnologyProfile: [
+            "PCB and Equipment",
+            "Semiconductor",
+            "Sensor, switch, Connector, Transformer, etc.",
+            "Solder paste",
+            "Robotics",
+            "SMT and Equipment",
+        ],
     },
     {
         id: "176",
@@ -3669,6 +4567,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "P05",
         ppsIndustryProfile: ["Others"],
         ppsCompanyActivity: ["Others"],
+        ppsMachineTechnologyProfile: ["Others"],
     },
     {
         id: "177",
@@ -3677,6 +4576,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "P07",
         ppsIndustryProfile: ["Electronic components"],
         ppsCompanyActivity: ["Manufacturer", "OEM / Subcontractor"],
+        ppsMachineTechnologyProfile: ["Electronics Manufacturing Services"],
     },
     {
         id: "178",
@@ -3685,6 +4585,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "P08",
         ppsIndustryProfile: ["Electronic assembly"],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: ["Others"],
     },
     {
         id: "179",
@@ -3693,6 +4594,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "P09",
         ppsIndustryProfile: ["Electric power", "Cable"],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: ["PCB and Equipment"],
     },
     {
         id: "180",
@@ -3707,6 +4609,11 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Electronic assembly",
         ],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: [
+            "Semiconductor",
+            "Sensor, switch, Connector, Transformer, etc.",
+            "Electronics Manufacturing Services",
+        ],
     },
     {
         id: "181",
@@ -3715,6 +4622,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "P11",
         ppsIndustryProfile: ["Electronic assembly"],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: ["Electronics Manufacturing Services"],
     },
     {
         id: "182",
@@ -3723,6 +4631,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "P12",
         ppsIndustryProfile: ["Electronic components"],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: ["Semiconductor"],
     },
     {
         id: "183",
@@ -3731,6 +4640,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "P13",
         ppsIndustryProfile: ["Electronic components"],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: ["SMT and Equipment"],
     },
     {
         id: "184",
@@ -3739,6 +4649,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "P14",
         ppsIndustryProfile: ["Electronic components"],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: ["Semiconductor"],
     },
     {
         id: "185",
@@ -3747,6 +4658,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "P15",
         ppsIndustryProfile: ["Electronic components"],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: ["SMT and Equipment"],
     },
     {
         id: "186",
@@ -3755,6 +4667,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "P17",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "187",
@@ -3763,6 +4676,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "P19",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "188",
@@ -3771,6 +4685,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "Q01",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "189",
@@ -3779,6 +4694,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "Q02",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "190",
@@ -3794,6 +4710,16 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Machinery",
         ],
         ppsCompanyActivity: ["Exporter", "Manufacturer"],
+        ppsMachineTechnologyProfile: [
+            "PCB and Equipment",
+            "Semiconductor",
+            "Auto Insertion Machine",
+            "Test and Measurement",
+            "Sensor, switch, Connector, Transformer, etc.",
+            "Electronics Manufacturing Services",
+            "Robotics",
+            "SMT and Equipment",
+        ],
     },
     {
         id: "191",
@@ -3802,6 +4728,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "Q05",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: ["Manufacturer", "OEM / Subcontractor"],
+        ppsMachineTechnologyProfile: ["PCB and Equipment", "IC and equipment"],
     },
     {
         id: "192",
@@ -3810,6 +4737,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "Q06",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "193",
@@ -3818,6 +4746,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "S02",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "194",
@@ -3832,6 +4761,10 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Electronic components",
         ],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: [
+            "Sensor, switch, Connector, Transformer, etc.",
+            "Electronics Manufacturing Services",
+        ],
     },
     {
         id: "195",
@@ -3840,6 +4773,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "S06",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "196",
@@ -3862,6 +4796,12 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Exporter",
             "Importer",
         ],
+        ppsMachineTechnologyProfile: [
+            "IC and equipment",
+            "Auto Optical Inspection Machine (AOI)",
+            "Test and Measurement",
+            "Sensor, switch, Connector, Transformer, etc.",
+        ],
     },
     {
         id: "197",
@@ -3879,6 +4819,13 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Manufacturer",
             "OEM / Subcontractor",
         ],
+        ppsMachineTechnologyProfile: [
+            "Semiconductor",
+            "Printer",
+            "Auto Optical Inspection Machine (AOI)",
+            "Dispenser",
+            "Electronics Manufacturing Services",
+        ],
     },
     {
         id: "198",
@@ -3887,6 +4834,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "T06",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "199",
@@ -3895,6 +4843,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "U02",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "200",
@@ -3913,6 +4862,13 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Distributor/ Agent / Trading",
             "Exporter",
             "Manufacturer",
+        ],
+        ppsMachineTechnologyProfile: [
+            "IC and equipment",
+            "Semiconductor",
+            "Reflow Oven",
+            "Test and Measurement",
+            "SMT and Equipment",
         ],
     },
     {
@@ -3933,6 +4889,12 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "OEM / Subcontractor",
             "Others",
         ],
+        ppsMachineTechnologyProfile: [
+            "IC and equipment",
+            "Semiconductor",
+            "Test and Measurement",
+            "Sensor, switch, Connector, Transformer, etc.",
+        ],
     },
     {
         id: "202",
@@ -3941,6 +4903,25 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "V01",
         ppsIndustryProfile: ["Machinery", "Others"],
         ppsCompanyActivity: ["Others"],
+        ppsMachineTechnologyProfile: [
+            "SMT and Equipment",
+            "PCB and Equipment",
+            "IC and equipment",
+            "Semiconductor",
+            "Printer",
+            "Auto Insertion Machine",
+            "Loader, Un loader & Conveyor",
+            "Reflow Oven",
+            "Wave Solder Machine",
+            "Auto Optical Inspection Machine (AOI)",
+            "Test and Measurement",
+            "Sensor, switch, Connector, Transformer, etc.",
+            "Electronics Manufacturing Services",
+            "Software",
+            "System",
+            "Robotics",
+            "Others",
+        ],
     },
     {
         id: "203",
@@ -3951,6 +4932,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "V01,U05",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "204",
@@ -3963,6 +4945,9 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Electronic assembly",
         ],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: [
+            "Sensor, switch, Connector, Transformer, etc.",
+        ],
     },
     {
         id: "205",
@@ -3981,6 +4966,13 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Quality Control",
         ],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: [
+            "PCB and Equipment",
+            "Semiconductor",
+            "Auto Optical Inspection Machine (AOI)",
+            "Test and Measurement",
+            "SMT and Equipment",
+        ],
     },
     {
         id: "206",
@@ -3989,6 +4981,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "X01",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "207",
@@ -3997,6 +4990,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "X03",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "208",
@@ -4013,6 +5007,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Importer",
             "Manufacturer",
         ],
+        ppsMachineTechnologyProfile: ["PCB and Equipment", "SMT and Equipment"],
     },
     {
         id: "209",
@@ -4021,6 +5016,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "X05",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "210",
@@ -4059,6 +5055,16 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Manufacturer",
             "OEM / Subcontractor",
         ],
+        ppsMachineTechnologyProfile: [
+            "SMT and Equipment",
+            "PCB and Equipment",
+            "Semiconductor",
+            "Reflow Oven",
+            "Test and Measurement",
+            "Solder paste",
+            "Software",
+            "System",
+        ],
     },
     {
         id: "211",
@@ -4067,6 +5073,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "X07",
         ppsIndustryProfile: ["Electronic assembly"],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: ["SMT and Equipment"],
     },
     {
         id: "212",
@@ -4075,6 +5082,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "X08",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "213",
@@ -4083,6 +5091,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "X09",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "214",
@@ -4091,6 +5100,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "X10",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "215",
@@ -4107,6 +5117,10 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Importer",
             "Manufacturer",
         ],
+        ppsMachineTechnologyProfile: [
+            "Test and Measurement",
+            "Sensor, switch, Connector, Transformer, etc.",
+        ],
     },
     {
         id: "216",
@@ -4115,6 +5129,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "X12",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "217",
@@ -4130,6 +5145,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Visual Equipment",
         ],
         ppsCompanyActivity: ["Distributor/ Agent / Trading", "Exporter"],
+        ppsMachineTechnologyProfile: ["IC and equipment", "Semiconductor"],
     },
     {
         id: "218",
@@ -4138,6 +5154,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "Y01",
         ppsIndustryProfile: [""],
         ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: [""],
     },
     {
         id: "219",
@@ -4146,6 +5163,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "Y02",
         ppsIndustryProfile: ["Others"],
         ppsCompanyActivity: ["Manufacturer"],
+        ppsMachineTechnologyProfile: ["Others"],
     },
     {
         id: "220",
@@ -4165,6 +5183,16 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Machinery",
         ],
         ppsCompanyActivity: ["Manufacturer", "OEM / Subcontractor"],
+        ppsMachineTechnologyProfile: [
+            "SMT and Equipment",
+            "PCB and Equipment",
+            "Semiconductor",
+            "Auto Insertion Machine",
+            "Loader, Un loader & Conveyor",
+            "Auto Optical Inspection Machine (AOI)",
+            "Test and Measurement",
+            "Sensor, switch, Connector, Transformer, etc.",
+        ],
     },
     {
         id: "221",
@@ -4177,6 +5205,16 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Smart Electronics",
         ],
         ppsCompanyActivity: ["Exporter", "Manufacturer"],
+        ppsMachineTechnologyProfile: [
+            "PCB and Equipment",
+            "IC and equipment",
+            "Semiconductor",
+            "Auto Insertion Machine",
+            "Loader, Un loader & Conveyor",
+            "Test and Measurement",
+            "Sensor, switch, Connector, Transformer, etc.",
+            "SMT and Equipment",
+        ],
     },
     {
         id: "222",
@@ -4190,6 +5228,13 @@ export const ExhibitorData: IExhibitorInfo[] = [
             "Quality Control",
         ],
         ppsCompanyActivity: ["Others"],
+        ppsMachineTechnologyProfile: [
+            "Semiconductor",
+            "Test and Measurement",
+            "Sensor, switch, Connector, Transformer, etc.",
+            "Software",
+            "System",
+        ],
     },
     {
         id: "223",
@@ -4198,14 +5243,7 @@ export const ExhibitorData: IExhibitorInfo[] = [
         stands: "Y06",
         ppsIndustryProfile: ["Mobile", "Machinery"],
         ppsCompanyActivity: ["Exporter", "Manufacturer"],
-    },
-    {
-        id: "224",
-        companyName: "SANKO FASTEM (THAILAND) LTD.",
-        displayName: "RX-Operation Dept",
-        stands: "",
-        ppsIndustryProfile: [""],
-        ppsCompanyActivity: [""],
+        ppsMachineTechnologyProfile: ["Robotics"],
     },
 ];
 

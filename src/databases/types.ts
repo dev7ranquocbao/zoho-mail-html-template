@@ -14,5 +14,6 @@ export interface IExhibitorInfo {
     displayName: string;
     ppsIndustryProfile: string[];
     ppsCompanyActivity: string[];
+    ppsMachineTechnologyProfile: string[];
     stands: string;
 }
