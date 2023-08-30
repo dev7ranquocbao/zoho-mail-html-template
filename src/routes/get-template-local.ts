@@ -1,6 +1,6 @@
 import express from "express";
-import { HTMLTemplateV1, HTMLTemplateV2 } from "../constants/html-templates";
-import { logError, logRequest } from "../utils/logger";
+import { HTMLTemplateV1, HTMLTemplateV2 } from "../constants/html-templates.js";
+import { logError, logRequest } from "../utils/logger.js";
 
 const router = express.Router();
 
