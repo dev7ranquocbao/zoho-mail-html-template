@@ -5,6 +5,7 @@ import { JSONFile } from "lowdb/node";
 import { Low } from "lowdb";
 import { SpecialKey } from "../databases/exhibitor-sheet.js";
 import { makeHTMLTableBody } from "../utils/table-html.js";
+import { v4 as uuidv4 } from "uuid";
 
 const router = express.Router();
 
@@ -93,6 +94,17 @@ router.get("/:id/preview", async (req, res) => {
         logError(error);
         res.status(400).json({ message: error });
     }
+});
+
+router.get("/create/template", async (_req, res) => {
+    await db.read();
+    db.data.templates.push({
+        id: uuidv4(),
+        content: "// data here",
+        variables: ["exhibitor_name", "dem", "access_code"],
+    });
+    await db.write();
+    res.status(200).send("success");
 });
 
 export default router;
