@@ -123,17 +123,17 @@ const getEncryptKeyUrl = (data: DataStructure[]) => {
 
         // {{showId}}|{{badgeId}}|{{firstName}}|{{lastName}}|{{position}}|{{company}}|{{email}}|{{phone}}
         const formattedData = [
-            showId,
-            badgeId,
-            fullName,
-            "",
-            "",
-            companyName,
-            email,
-            phone,
+            encodeURIComponent(showId),
+            encodeURIComponent(badgeId),
+            encodeURIComponent(fullName),
+            encodeURIComponent(""),
+            encodeURIComponent(""),
+            encodeURIComponent(companyName),
+            encodeURIComponent(email),
+            encodeURIComponent(phone),
         ];
 
-        finalUrl += "data=" + encodeURIComponent(formattedData.join("|"));
+        finalUrl += "data=" + formattedData.join("|");
         results += finalUrl + "\n";
     }
 
