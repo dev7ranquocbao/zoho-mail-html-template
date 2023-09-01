@@ -71,14 +71,9 @@ router.get("", async (req, res) => {
         const result = execute("encrypt", data, Secret_EncryptKey);
 
         if (typeof query[AccountIdKey] === "string") {
-            const URL =
-                "https://chart.googleapis.com/chart?cht=qr&chs=250x250&chl=";
-            const URL2 =
-                "&style=197&type=C128B&width=271&height=50&xres=1&font=3";
-
             await saveQrData({
                 accountId: query[AccountIdKey],
-                htmlContent: URL + result + URL2,
+                htmlContent: result,
             });
         }
 

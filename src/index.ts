@@ -4,12 +4,16 @@ import bodyParser from "body-parser";
 import getTemplateLocalRoute from "./routes/get-template-local.js";
 import emperiaEncryptRoute from "./routes/emperia-encrypt.js";
 import getHtmlTemplateRoute from "./routes/get-html-template.js";
+import retrieveDataRoute from "./routes/retrieve-data.js";
 import mongodb from "./databases/mongodb.js";
 
 dotenv.config();
 
 const app = express();
 const port = 3000;
+
+app.set("views", "src/views");
+app.set("view engine", "ejs");
 
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
@@ -27,6 +31,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use("/api/get-template-local", getTemplateLocalRoute);
 app.use("/api/emperia-encrypt", emperiaEncryptRoute);
 app.use("/api/get-html-template", getHtmlTemplateRoute);
+app.use(retrieveDataRoute);
 
 app.get("/api", (_, res) => {
     res.status(200).json({ data: "Welcome 7!" });

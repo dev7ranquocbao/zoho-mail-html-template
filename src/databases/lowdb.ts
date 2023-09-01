@@ -13,6 +13,6 @@ const rcmAdapter = new JSONFile<ILowdbData<IRcmData>>("src/databases/rcm.json");
 const RcmDb = new Low<ILowdbData<IRcmData>>(rcmAdapter, { data: [] });
 
 const qrAdapter = new JSONFile<ILowdbData<IQrData>>("src/databases/qr.json");
-const QrDb = new Low<ILowdbData<IRcmData>>(qrAdapter, { data: [] });
+const QrDb = new Low<ILowdbData<IQrData>>(qrAdapter, { data: [] });
 
 export { HtmlTemplateDb, RcmDb, QrDb };

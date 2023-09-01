@@ -85,6 +85,7 @@ router.get("/:id", async (req, res) => {
             await saveRcmData({
                 accountId: query[AccountIdKey],
                 htmlContent: cloned,
+                templateId: templateId,
             });
         }
 

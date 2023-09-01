@@ -1,9 +1,3 @@
 {
-  "data": [
-    {
-      "id": "dde4663f-5d93-465b-b02e-bd20e4875680",
-      "accountId": "anns",
-      "htmlContent": "https://chart.googleapis.com/chart?cht=qr&chs=250x250&chl=U2FsdGVkX18Qw6GFgrz4FiNnsNi/8+x0p+616SEP661vuj46MPcqKyDkVLU3KR7WCpoe+TCCjnLTMtUQP/EWxSXvnIkvdQJIMf9h7ahznZJpEo4uRhCqNFx61OyyM8B82bjRveGb67mW3zf4V1xAJw==&style=197&type=C128B&width=271&height=50&xres=1&font=3"
-    }
-  ]
+  "data": []
 }
