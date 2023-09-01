@@ -4,6 +4,7 @@ import bodyParser from "body-parser";
 import getTemplateLocalRoute from "./routes/get-template-local.js";
 import emperiaEncryptRoute from "./routes/emperia-encrypt.js";
 import getHtmlTemplateRoute from "./routes/get-html-template.js";
+import mongodb from "./databases/mongodb.js";
 
 dotenv.config();
 
@@ -29,4 +30,8 @@ app.use("/api/get-html-template", getHtmlTemplateRoute);
 
 app.get("/api", (_, res) => {
     res.status(200).json({ data: "Welcome 7!" });
+});
+
+mongodb.once("open", () => {
+    console.log("Connected to MongoDB!");
 });

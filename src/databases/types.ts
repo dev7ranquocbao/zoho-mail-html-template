@@ -1,3 +1,6 @@
+import { TQRCode } from "../mongodb-models/qrcode.js";
+import { TRecommendation } from "../mongodb-models/recommendation.js";
+
 export interface IHTMLTemplate {
     id: string;
     content: string;
@@ -16,4 +19,16 @@ export interface IExhibitorInfo {
     ppsCompanyActivity: string[];
     ppsMachineTechnologyProfile: string[];
     stands: string;
+}
+
+export interface ILowdbData<T> {
+    data: T[];
+}
+
+export interface IRcmData extends TRecommendation {
+    id: string;
+}
+
+export interface IQrData extends TQRCode {
+    id: string;
 }
