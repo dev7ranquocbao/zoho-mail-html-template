@@ -57,7 +57,7 @@ const getEmailConfirmUrl = async (data: DataStructure[]) => {
     let results = "";
 
     const rootUrl =
-        "http://localhost:3000/api/get-html-template/92baaed6-cb19-404d-baf3-993106451fc5";
+        "http://localhost:3000/api/get-html-template/ca4ba346-de9c-482b-8087-9f215d627dc6";
 
     const URL = "https://chart.googleapis.com/chart?cht=qr&chs=250x250&chl=";
     const URL2 = "&style=197&type=C128B&width=271&height=50&xres=1&font=3";
