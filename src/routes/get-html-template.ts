@@ -1,17 +1,17 @@
 import express from "express";
 import { logError, logRequest } from "../utils/logger.js";
-import { IHTMLTemplate, IHTMLTemplateData } from "../databases/types.js";
-import { JSONFile } from "lowdb/node";
-import { Low } from "lowdb";
-import { SpecialKey } from "../databases/exhibitor-sheet.js";
+import { IHTMLTemplate } from "../databases/types.js";
 import { makeHTMLTableBody } from "../utils/table-html.js";
 import { v4 as uuidv4 } from "uuid";
+import RecommendationModel, {
+    TRecommendation,
+} from "../mongodb-models/recommendation.js";
+import { AccountIdKey, RecommendationKey } from "../constants/keys.js";
+import { HtmlTemplateDb as mainDb, RcmDb } from "../databases/lowdb.js";
 
 const router = express.Router();
 
-const defaultData: IHTMLTemplateData = { templates: [] };
-const adapter = new JSONFile<IHTMLTemplateData>("src/databases/templates.json");
-const db = new Low<IHTMLTemplateData>(adapter, defaultData);
+const rcmDb = RcmDb;
 
 interface ParsedQs {
     [key: string]: undefined | string | string[] | ParsedQs | ParsedQs[];
@@ -30,11 +30,11 @@ const convertTemplate = (template: IHTMLTemplate, query: ParsedQs): string => {
 
         if (typeof value !== "string") return;
 
-        if (variable === SpecialKey) {
+        if (variable === RecommendationKey) {
             const keywords = value.split(",");
             const tbody = makeHTMLTableBody(keywords);
 
-            const regex = new RegExp(`{{${SpecialKey}}}`, "g");
+            const regex = new RegExp(`{{${RecommendationKey}}}`, "g");
             cloned = cloned.replace(regex, tbody);
             return;
         }
@@ -46,15 +46,28 @@ const convertTemplate = (template: IHTMLTemplate, query: ParsedQs): string => {
     return cloned;
 };
 
+const saveRcmData = async (data: TRecommendation) => {
+    try {
+        const rcm = new RecommendationModel(data);
+        await rcm.save();
+
+        await rcmDb.read();
+        rcmDb.data.data.push({ id: uuidv4(), ...data });
+        await rcmDb.write();
+    } catch (error) {
+        logError(`Backup failed ${error}`);
+    }
+};
+
 router.get("/:id", async (req, res) => {
     try {
-        await db.read();
+        await mainDb.read();
         logRequest(req);
 
         const templateId = req.params.id;
         const query = req.query;
 
-        const template = db.data.templates.find(tpl => {
+        const template = mainDb.data.templates.find(tpl => {
             return tpl.id === templateId;
         });
 
@@ -64,6 +77,18 @@ router.get("/:id", async (req, res) => {
         }
 
         const cloned = convertTemplate(template, query);
+
+        if (
+            typeof query[RecommendationKey] === "string" &&
+            typeof query[AccountIdKey] === "string"
+        ) {
+            await saveRcmData({
+                accountId: query[AccountIdKey],
+                htmlContent: cloned,
+                templateId: templateId,
+            });
+        }
+
         res.status(200).json({ data: cloned });
     } catch (error) {
         logError(error);
@@ -73,13 +98,13 @@ router.get("/:id", async (req, res) => {
 
 router.get("/:id/preview", async (req, res) => {
     try {
-        await db.read();
+        await mainDb.read();
         logRequest(req);
 
         const templateId = req.params.id;
         const query = req.query;
 
-        const template = db.data.templates.find(tpl => {
+        const template = mainDb.data.templates.find(tpl => {
             return tpl.id === templateId;
         });
 
@@ -94,17 +119,6 @@ router.get("/:id/preview", async (req, res) => {
         logError(error);
         res.status(400).json({ message: error });
     }
-});
-
-router.get("/create/template", async (_req, res) => {
-    await db.read();
-    db.data.templates.push({
-        id: uuidv4(),
-        content: "// data here",
-        variables: ["exhibitor_name", "dem", "access_code"],
-    });
-    await db.write();
-    res.status(200).send("success");
 });
 
 export default router;

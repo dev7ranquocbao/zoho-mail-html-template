@@ -2,8 +2,13 @@ import express from "express";
 import { Secret_EncryptKey } from "../constants/encrypt.js";
 import CryptoJS from "crypto-js";
 import { logError, logRequest } from "../utils/logger.js";
+import { QrDb } from "../databases/lowdb.js";
+import QrCodeModel, { TQRCode } from "../mongodb-models/qrcode.js";
+import { v4 as uuidv4 } from "uuid";
+import { AccountIdKey } from "../constants/keys.js";
 
 const router = express.Router();
+const qrDb = QrDb;
 
 const execute = (
     type: "encrypt" | "decrypt",
@@ -38,9 +43,24 @@ const execute = (
     }
 };
 
+const saveQrData = async (data: TQRCode) => {
+    try {
+        const qr = new QrCodeModel(data);
+        await qr.save();
+
+        await qrDb.read();
+        qrDb.data.data.push({ id: uuidv4(), ...data });
+        await qrDb.write();
+    } catch (error) {
+        logError(`Backup failed ${error}`);
+    }
+};
+
 router.get("", async (req, res) => {
     try {
-        const data = req.query.data;
+        const query = req.query;
+        const data = query.data;
+
         logRequest(req);
 
         if (typeof data !== "string") {
@@ -49,6 +69,14 @@ router.get("", async (req, res) => {
         }
 
         const result = execute("encrypt", data, Secret_EncryptKey);
+
+        if (typeof query[AccountIdKey] === "string") {
+            await saveQrData({
+                accountId: query[AccountIdKey],
+                htmlContent: result,
+            });
+        }
+
         res.status(200).json({ data: result });
     } catch (error) {
         logError(error);

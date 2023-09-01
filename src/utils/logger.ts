@@ -5,8 +5,6 @@ type App = Express;
 type AppGetCallback = Parameters<App["get"]>[1];
 
 const logError = (error: unknown) => {
-    console.log();
-
     const now = new Date();
     fs.appendFile(
         "src/logs/errors.txt",
