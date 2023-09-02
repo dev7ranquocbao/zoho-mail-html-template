@@ -13,10 +13,25 @@
             body {
                 margin: 0;
                 padding: 0;
+                box-sizing: border-box;
+            }
+
+            .container {
+                min-height: 100vh;
+                min-width: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .box {
+                max-width: 700px;
             }
         </style>
     </head>
     <body>
-        <%-content%>
+        <div class="container">
+            <div class="box"><%-content%></div>
+        </div>
     </body>
 </html>
