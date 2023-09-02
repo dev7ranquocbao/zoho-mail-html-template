@@ -4,3 +4,5 @@ dist
 src/logs
 package-lock.json
 yarn.lock
+src/databases/qr.json
+src/databases/rcm.json
