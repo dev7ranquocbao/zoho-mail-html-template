@@ -5,7 +5,7 @@ import { logError, logRequest } from "../utils/logger.js";
 import { QrDb } from "../databases/lowdb.js";
 import QrCodeModel, { TQRCode } from "../mongodb-models/qrcode.js";
 import { v4 as uuidv4 } from "uuid";
-import { AccountIdKey } from "../constants/keys.js";
+import { AccountIdKey, QrCodeType } from "../constants/keys.js";
 
 const router = express.Router();
 const qrDb = QrDb;
@@ -70,10 +70,23 @@ router.get("", async (req, res) => {
 
         const result = execute("encrypt", data, Secret_EncryptKey);
 
-        if (typeof query[AccountIdKey] === "string") {
+        if (
+            typeof query[AccountIdKey] === "string" &&
+            typeof query[QrCodeType] === "string"
+        ) {
+            // eslint-disable-next-line @typescript-eslint/no-unused-vars
+            const [_showId, _badgeId, firstName, lastName, _position, company] =
+                data.split("|");
+
+            const fullName = (firstName || "") + (lastName || "");
+            const companyName = company || "";
+
             await saveQrData({
                 accountId: query[AccountIdKey],
                 htmlContent: result,
+                fullName: fullName,
+                companyName: companyName,
+                type: query[QrCodeType] === "i" ? "Individual" : "Group",
             });
         }
 

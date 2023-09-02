@@ -46,13 +46,23 @@ router.get("/qr/:id", async (req, res) => {
             .exec();
 
         const content = data?.htmlContent;
+        const type = data?.type;
+        const fullName = data?.fullName || "";
+        const companyName = data?.companyName || "";
 
-        if (!content) {
+        if (!content || !type) {
             logError("Mongodb find failed:::" + id);
             throw new Error("Mongodb find failed");
         }
 
-        res.render("qr", { url: encodeURIComponent(content) });
+        const encodeContent = encodeURIComponent(content);
+        const ejsName = type === "Individual" ? "qr-individual" : "qr-group";
+
+        res.render(ejsName, {
+            content: encodeContent,
+            fullName,
+            companyName,
+        });
     } catch (error) {
         await qrDb.read();
 
@@ -61,7 +71,18 @@ router.get("/qr/:id", async (req, res) => {
         });
 
         const content = data?.htmlContent || "";
-        res.render("qr", { url: encodeURIComponent(content) });
+        const type = data?.type || "Individual";
+        const fullName = data?.fullName || "";
+        const companyName = data?.companyName || "";
+
+        const encodeContent = encodeURIComponent(content);
+        const ejsName = type === "Individual" ? "qr-individual" : "qr-group";
+
+        res.render(ejsName, {
+            content: encodeContent,
+            fullName,
+            companyName,
+        });
     }
 });
 
