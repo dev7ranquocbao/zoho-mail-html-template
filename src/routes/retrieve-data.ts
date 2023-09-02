@@ -32,6 +32,11 @@ router.get("/rcm/:id", async (req, res) => {
             return value.accountId === id;
         });
 
+        if (!data) {
+            res.status(400).send("Null");
+            return;
+        }
+
         const content = data?.htmlContent || "";
         res.render("rcm", { content });
     }
