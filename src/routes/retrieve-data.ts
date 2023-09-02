@@ -70,6 +70,11 @@ router.get("/qr/:id", async (req, res) => {
             return value.accountId === id;
         });
 
+        if (!data) {
+            res.status(400).send("Null");
+            return;
+        }
+
         const content = data?.htmlContent || "";
         const type = data?.type || "Individual";
         const fullName = data?.fullName || "";
