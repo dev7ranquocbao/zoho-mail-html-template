@@ -14,54 +14,68 @@
                 margin: 0;
                 padding: 0;
                 box-sizing: border-box;
+                font-size: 16px;
             }
 
             .container {
                 min-height: 100vh;
-                min-width: 100vh;
                 display: flex;
                 justify-content: center;
                 align-items: center;
             }
 
             .box {
-                max-width: 700px;
-                display: flex;
-                flex-direction: column;
+                max-width: 100%;
+                padding: 20px;
+                box-sizing: border-box;
             }
 
             .customer-name {
-                height: 200px;
                 text-align: center;
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-end;
             }
 
-            .customer-name h1 {
-                margin-block-end: 0px;
+            .customer-name h2 {
+                margin-top: 80px;
+                font-size: 2rem;
             }
 
-            h1 {
-                font-size: 300%;
-            }
-
-            h3 {
-                font-size: 150%;
+            h4 {
+                font-size: 1.25rem;
             }
 
             .qr-code {
-                height: 300px;
                 text-align: center;
             }
 
             .instruction {
-                margin-top: 64px;
+                margin-top: 20px;
                 text-align: center;
             }
 
-            .instruction h5 {
+            .instruction h6 {
                 font-style: italic;
+            }
+
+            @media (min-width: 768px) {
+                .box {
+                    max-width: 700px;
+                    margin: 0 auto;
+                }
+            }
+
+            @media (max-width: 600px) {
+                .box {
+                    padding: 0px;
+                    margin: 0px;
+                }
+
+                .customer-name h2 {
+                    font-size: 1.5rem;
+                }
+
+                h4 {
+                    font-size: 1rem;
+                }
             }
         </style>
     </head>
@@ -71,7 +85,6 @@
                 <div class="image-header">
                     <img
                         alt=""
-                        height="86"
                         src="https://w.ladicdn.com/s250x250/60a651b7c4ec0f001367452b/header-nepcon-20230814074834-ww-up.jpg"
                         width="100%"
                     />
@@ -104,7 +117,6 @@
                 <div class="image-footer">
                     <img
                         alt=""
-                        height="86"
                         src="https://w.ladicdn.com/s250x250/60a651b7c4ec0f001367452b/footer-nepcon-background-20230818070943-1-qyx.jpg"
                         width="100%"
                     />
