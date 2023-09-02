@@ -2,13 +2,13 @@ import express from "express";
 import { Secret_EncryptKey } from "../constants/encrypt.js";
 import CryptoJS from "crypto-js";
 import { logError, logRequest } from "../utils/logger.js";
-import { QrDb } from "../databases/lowdb.js";
-import QrCodeModel, { TQRCode } from "../mongodb-models/qrcode.js";
-import { v4 as uuidv4 } from "uuid";
-import { AccountIdKey, QrCodeType } from "../constants/keys.js";
+// import { QrDb } from "../databases/lowdb.js";
+// import QrCodeModel, { TQRCode } from "../mongodb-models/qrcode.js";
+// import { v4 as uuidv4 } from "uuid";
+// import { AccountIdKey, QrCodeType } from "../constants/keys.js";
 
 const router = express.Router();
-const qrDb = QrDb;
+// const qrDb = QrDb;
 
 const execute = (
     type: "encrypt" | "decrypt",
@@ -43,18 +43,18 @@ const execute = (
     }
 };
 
-const saveQrData = async (data: TQRCode) => {
-    try {
-        const qr = new QrCodeModel(data);
-        await qr.save();
+// const saveQrData = async (data: TQRCode) => {
+//     try {
+//         const qr = new QrCodeModel(data);
+//         await qr.save();
 
-        await qrDb.read();
-        qrDb.data.data.push({ id: uuidv4(), ...data });
-        await qrDb.write();
-    } catch (error) {
-        logError(`Backup failed ${error}`);
-    }
-};
+//         await qrDb.read();
+//         qrDb.data.data.push({ id: uuidv4(), ...data });
+//         await qrDb.write();
+//     } catch (error) {
+//         logError(`Backup failed ${error}`);
+//     }
+// };
 
 router.get("", async (req, res) => {
     try {
@@ -70,25 +70,25 @@ router.get("", async (req, res) => {
 
         const result = execute("encrypt", data, Secret_EncryptKey);
 
-        if (
-            typeof query[AccountIdKey] === "string" &&
-            typeof query[QrCodeType] === "string"
-        ) {
-            // eslint-disable-next-line @typescript-eslint/no-unused-vars
-            const [_showId, _badgeId, firstName, lastName, _position, company] =
-                data.split("|");
+        // if (
+        //     typeof query[AccountIdKey] === "string" &&
+        //     typeof query[QrCodeType] === "string"
+        // ) {
+        //     // eslint-disable-next-line @typescript-eslint/no-unused-vars
+        //     const [_showId, _badgeId, firstName, lastName, _position, company] =
+        //         data.split("|");
 
-            const fullName = (firstName || "") + (lastName || "");
-            const companyName = company || "";
+        //     const fullName = (firstName || "") + (lastName || "");
+        //     const companyName = company || "";
 
-            await saveQrData({
-                accountId: query[AccountIdKey],
-                htmlContent: result,
-                fullName: fullName,
-                companyName: companyName,
-                type: query[QrCodeType] === "i" ? "Individual" : "Group",
-            });
-        }
+        //     await saveQrData({
+        //         accountId: query[AccountIdKey] + query[QrCodeType],
+        //         htmlContent: result,
+        //         fullName: fullName,
+        //         companyName: companyName,
+        //         type: query[QrCodeType] === "i" ? "Individual" : "Group",
+        //     });
+        // }
 
         res.status(200).json({ data: result });
     } catch (error) {

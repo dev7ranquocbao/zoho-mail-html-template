@@ -6,12 +6,18 @@ import { v4 as uuidv4 } from "uuid";
 import RecommendationModel, {
     TRecommendation,
 } from "../mongodb-models/recommendation.js";
-import { AccountIdKey, RecommendationKey } from "../constants/keys.js";
-import { HtmlTemplateDb as mainDb, RcmDb } from "../databases/lowdb.js";
+import {
+    AccountIdKey,
+    RecommendationKey,
+    QrCodeType,
+} from "../constants/keys.js";
+import { HtmlTemplateDb as mainDb, RcmDb, QrDb } from "../databases/lowdb.js";
+import QrCodeModel, { TQRCode } from "../mongodb-models/qrcode.js";
+import { convertToString } from "../utils/converter.js";
 
 const router = express.Router();
-
 const rcmDb = RcmDb;
+const qrDb = QrDb;
 
 interface ParsedQs {
     [key: string]: undefined | string | string[] | ParsedQs | ParsedQs[];
@@ -59,6 +65,19 @@ const saveRcmData = async (data: TRecommendation) => {
     }
 };
 
+const saveQrData = async (data: TQRCode) => {
+    try {
+        const qr = new QrCodeModel(data);
+        await qr.save();
+
+        await qrDb.read();
+        qrDb.data.data.push({ id: uuidv4(), ...data });
+        await qrDb.write();
+    } catch (error) {
+        logError(`Backup failed ${error}`);
+    }
+};
+
 router.get("/:id", async (req, res) => {
     try {
         await mainDb.read();
@@ -86,6 +105,19 @@ router.get("/:id", async (req, res) => {
                 accountId: query[AccountIdKey],
                 htmlContent: cloned,
                 templateId: templateId,
+            });
+        }
+
+        if (
+            typeof query[AccountIdKey] === "string" &&
+            typeof query[QrCodeType] === "string"
+        ) {
+            await saveQrData({
+                accountId: query[AccountIdKey] + query[QrCodeType],
+                htmlContent: query[AccountIdKey],
+                fullName: convertToString(query["contact_full_name"]),
+                companyName: convertToString(query["company_name"]),
+                type: query[QrCodeType] === "i" ? "Individual" : "Group",
             });
         }
 
