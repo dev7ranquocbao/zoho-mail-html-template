@@ -12,7 +12,11 @@ export const makeHTMLTableBody = (keywords: string[]) => {
         return intersect.length > 0;
     });
 
-    const randomExhibitors = sampleSize(collectData, 10);
+    let randomExhibitors = sampleSize(collectData, 10);
+
+    if (randomExhibitors.length < 10) {
+        randomExhibitors = sampleSize(ExhibitorData, 10);
+    }
 
     let trs = "";
 
