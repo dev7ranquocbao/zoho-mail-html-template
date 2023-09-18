@@ -32,3 +32,7 @@ export interface IRcmData extends TRecommendation {
 export interface IQrData extends TQRCode {
     id: string;
 }
+
+export interface ParsedQs {
+    [key: string]: undefined | string | string[] | ParsedQs | ParsedQs[];
+}

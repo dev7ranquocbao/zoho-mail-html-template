@@ -1,4 +1,5 @@
 import CryptoJS from "crypto-js";
+import { IHTMLTemplate, ParsedQs } from "../databases/types.js";
 
 export const convertToString = <T>(value: T): string => {
     return typeof value === "string" ? value : "";
@@ -35,4 +36,27 @@ export const execute = (
         default:
             return "bad encrypt";
     }
+};
+
+export const baseConvertTemplate = (
+    template: IHTMLTemplate,
+    query: ParsedQs,
+): string => {
+    let cloned = template.content;
+
+    template.variables.forEach(variable => {
+        let value = query[variable];
+
+        if (Array.isArray(value)) {
+            const clonedValue = value;
+            value = clonedValue[0];
+        }
+
+        if (typeof value !== "string") return;
+
+        const regex = new RegExp(`{{${variable}}}`, "g");
+        cloned = cloned.replace(regex, value);
+    });
+
+    return cloned;
 };

@@ -5,6 +5,7 @@ import getTemplateLocalRoute from "./routes/get-template-local.js";
 import emperiaEncryptRoute from "./routes/emperia-encrypt.js";
 import getHtmlTemplateRoute from "./routes/get-html-template.js";
 import retrieveDataRoute from "./routes/retrieve-data.js";
+import mxvConfirmRoute from "./routes/mxv-confirm.js";
 import mongodb from "./databases/mongodb.js";
 
 dotenv.config();
@@ -32,6 +33,7 @@ app.use("/api/get-template-local", getTemplateLocalRoute);
 app.use("/api/emperia-encrypt", emperiaEncryptRoute);
 app.use("/api/get-html-template", getHtmlTemplateRoute);
 app.use(retrieveDataRoute);
+app.use(mxvConfirmRoute);
 
 app.get("/api", (_, res) => {
     res.status(200).json({ data: "Welcome 7!" });
