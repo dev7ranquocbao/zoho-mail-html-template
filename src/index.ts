@@ -6,6 +6,7 @@ import emperiaEncryptRoute from "./routes/emperia-encrypt.js";
 import getHtmlTemplateRoute from "./routes/get-html-template.js";
 import retrieveDataRoute from "./routes/retrieve-data.js";
 import mxvConfirmRoute from "./routes/mxv-confirm.js";
+import qrConfirmRoute from "./routes/qr-confirm-hcm.js";
 import mongodb from "./databases/mongodb.js";
 
 dotenv.config();
@@ -15,6 +16,7 @@ const port = 3000;
 
 app.set("views", "src/views");
 app.set("view engine", "ejs");
+app.use("/assets", express.static("src/assets"));
 
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
@@ -34,6 +36,7 @@ app.use("/api/emperia-encrypt", emperiaEncryptRoute);
 app.use("/api/get-html-template", getHtmlTemplateRoute);
 app.use(retrieveDataRoute);
 app.use(mxvConfirmRoute);
+app.use(qrConfirmRoute);
 
 app.get("/api", (_, res) => {
     res.status(200).json({ data: "Welcome 7!" });

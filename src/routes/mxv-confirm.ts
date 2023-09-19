@@ -1,7 +1,10 @@
 import express from "express";
 import { logError, logRequest } from "../utils/logger.js";
 import { HtmlTemplateDb as mainDb } from "../databases/lowdb.js";
-import { baseConvertTemplate } from "../utils/converter.js";
+import { baseConvertTemplate, convertToString } from "../utils/converter.js";
+import { AccountIdKey } from "../constants/keys.js";
+import { saveQrData } from "../utils/data-saver.js";
+import { TQRCode } from "../mongodb-models/qrcode.js";
 
 const router = express.Router();
 
@@ -23,30 +26,17 @@ router.get("/mxv-group-confirm", async (req, res) => {
 
         const cloned = baseConvertTemplate(template, query);
 
-        res.status(200).json({ data: cloned });
-    } catch (error) {
-        logError(error);
-        res.status(400).json({ message: error });
-    }
-});
+        if (typeof query[AccountIdKey] === "string") {
+            const type: TQRCode["type"] = "Group";
 
-router.get("/mxv-group-confirm", async (req, res) => {
-    try {
-        await mainDb.read();
-        logRequest(req);
-
-        const query = req.query;
-
-        const template = mainDb.data.templates.find(tpl => {
-            return tpl.id === "mxv-group-confirm";
-        });
-
-        if (!template) {
-            res.status(200).json({ data: "" });
-            return;
+            await saveQrData({
+                accountId: query[AccountIdKey] + type,
+                htmlContent: query[AccountIdKey],
+                fullName: convertToString(query["full_name"]),
+                companyName: convertToString(query["company_name"]),
+                type,
+            });
         }
-
-        const cloned = baseConvertTemplate(template, query);
 
         res.status(200).json({ data: cloned });
     } catch (error) {
@@ -69,6 +59,18 @@ router.get("/mxv-ind-confirm", async (req, res) => {
         if (!template) {
             res.status(200).json({ data: "" });
             return;
+        }
+
+        if (typeof query[AccountIdKey] === "string") {
+            const type: TQRCode["type"] = "Individual";
+
+            await saveQrData({
+                accountId: query[AccountIdKey] + type,
+                htmlContent: query[AccountIdKey],
+                fullName: convertToString(query["full_name"]),
+                companyName: convertToString(query["company_name"]),
+                type,
+            });
         }
 
         const cloned = baseConvertTemplate(template, query);
