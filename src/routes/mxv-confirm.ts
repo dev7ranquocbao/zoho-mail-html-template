@@ -2,7 +2,7 @@ import express from "express";
 import { logError, logRequest } from "../utils/logger.js";
 import { HtmlTemplateDb as mainDb } from "../databases/lowdb.js";
 import { baseConvertTemplate, convertToString } from "../utils/converter.js";
-import { AccountIdKey } from "../constants/keys.js";
+import { BadgeIdKey } from "../constants/keys.js";
 import { saveQrData } from "../utils/data-saver.js";
 import { TQRCode } from "../mongodb-models/qrcode.js";
 
@@ -26,12 +26,12 @@ router.get("/mxv-group-confirm", async (req, res) => {
 
         const cloned = baseConvertTemplate(template, query);
 
-        if (typeof query[AccountIdKey] === "string") {
+        if (typeof query[BadgeIdKey] === "string") {
             const type: TQRCode["type"] = "Group";
 
             await saveQrData({
-                accountId: query[AccountIdKey] + type,
-                htmlContent: query[AccountIdKey],
+                accountId: query[BadgeIdKey] + type,
+                htmlContent: query[BadgeIdKey],
                 fullName: convertToString(query["full_name"]),
                 companyName: convertToString(query["company_name"]),
                 type,
@@ -61,12 +61,12 @@ router.get("/mxv-ind-confirm", async (req, res) => {
             return;
         }
 
-        if (typeof query[AccountIdKey] === "string") {
+        if (typeof query[BadgeIdKey] === "string") {
             const type: TQRCode["type"] = "Individual";
 
             await saveQrData({
-                accountId: query[AccountIdKey] + type,
-                htmlContent: query[AccountIdKey],
+                accountId: query[BadgeIdKey] + type,
+                htmlContent: query[BadgeIdKey],
                 fullName: convertToString(query["full_name"]),
                 companyName: convertToString(query["company_name"]),
                 type,

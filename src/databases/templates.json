@@ -105,7 +105,8 @@
         "full_name",
         "company_name",
         "contact_email",
-        "email"
+        "email",
+        "scan_qr"
       ]
     },
     {
