@@ -5246,5 +5246,3 @@ export const ExhibitorData: IExhibitorInfo[] = [
         ppsMachineTechnologyProfile: ["Robotics"],
     },
 ];
-
-export const SpecialKey = "recommendation_list";

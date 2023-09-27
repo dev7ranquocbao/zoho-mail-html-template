@@ -2,6 +2,7 @@ import { JSONFile } from "lowdb/node";
 import { IHTMLTemplateData } from "../databases/types.js";
 import { Low } from "lowdb";
 import { v4 as uuidv4 } from "uuid";
+import { data } from "./test.js";
 
 const defaultData: IHTMLTemplateData = { templates: [] };
 const adapter = new JSONFile<IHTMLTemplateData>("src/databases/templates.json");
@@ -27,3 +28,7 @@ export const addNewHTMLTemplate = async (
 
     await db.write();
 };
+
+addNewHTMLTemplate(data, {
+    variables: ["exhibitor_name", "dem", "access_code"],
+});

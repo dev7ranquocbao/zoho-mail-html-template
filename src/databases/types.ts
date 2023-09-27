@@ -36,3 +36,26 @@ export interface IQrData extends TQRCode {
 export interface ParsedQs {
     [key: string]: undefined | string | string[] | ParsedQs | ParsedQs[];
 }
+
+export type MXVDataStructureRCM = {
+    ShowId: "MXV23" | "NEVHCM23";
+    EventEditionName: string;
+    EventEditionID: string;
+    ExhibitorID: string;
+    CompanyName: string;
+    DisplayName: string;
+    ExhibitorStatus: string;
+    ExhibitorType: string;
+    PackageName: string;
+    Stands: string;
+    SortOrderAlias: string;
+    ProfileCompleteness: string;
+    ExhibitorDetailPageURL: string;
+    Description: string;
+    WhyVisitOurStand: string;
+    Brands: string;
+    PPSCompanyActivity: string;
+    PPSIndustryProfile: string;
+    PPSMachineTechnologyProfile: string[];
+    PPSProductsServicesHighlight: string;
+};
