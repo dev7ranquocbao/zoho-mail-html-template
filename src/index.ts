@@ -7,6 +7,9 @@ import getHtmlTemplateRoute from "./routes/get-html-template.js";
 import retrieveDataRoute from "./routes/retrieve-data.js";
 import mxvConfirmRoute from "./routes/mxv-confirm.js";
 import qrConfirmRoute from "./routes/qr-confirm-hcm.js";
+import rcmMxvRoute from "./routes/mxv-rcm-list.js";
+import rcmMxvSmsRoute from "./routes/rcm-mxv-sms.js";
+import vipPassRoute from "./routes/vip-pass.js";
 import mongodb from "./databases/mongodb.js";
 
 dotenv.config();
@@ -37,6 +40,9 @@ app.use("/api/get-html-template", getHtmlTemplateRoute);
 app.use(retrieveDataRoute);
 app.use(mxvConfirmRoute);
 app.use(qrConfirmRoute);
+app.use(rcmMxvRoute);
+app.use(rcmMxvSmsRoute);
+app.use(vipPassRoute);
 
 app.get("/api", (_, res) => {
     res.status(200).json({ data: "Welcome 7!" });
