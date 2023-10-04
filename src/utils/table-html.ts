@@ -99,11 +99,11 @@ export const makeHTMLTableBodyMXV2023 = (
 
     shuffle([fixedExhibitor, ...randomExhibitors]).forEach(
         (exhibitor, index) => {
-            const { CompanyName, Stands } = exhibitor;
+            const { DisplayName, Stands } = exhibitor;
 
             trs += `<tr>
             <td>${index + 1}</td>
-            <td>${CompanyName}</td>
+            <td>${DisplayName}</td>
             <td>${Stands}</td>
         </tr>`;
         },
