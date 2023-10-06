@@ -4,7 +4,6 @@ import sampleSize from "lodash/sampleSize.js";
 import { ExhibitorData } from "../databases/exhibitor-sheet.js";
 import { ExhibitorDataMXV } from "../databases/exhibitor-sheet-mxv.js";
 import { MXVDataStructureRCM } from "../databases/types.js";
-import { SVG_GHM } from "./base64.js";
 
 export const makeHTMLTableBody = (keywords: string[]) => {
     const collectData = ExhibitorData.filter(exhibitor => {
@@ -112,7 +111,7 @@ export const makeHTMLTableBodyMXV2023 = (
                         "
                     >
                         <span>${DisplayName}</span>
-                        <img height="20px" src="${SVG_GHM}"/>
+                        <img height="20px" src="https://port.rx-vietnamshows.com/mxv/ghm" />
                     </div>
                 </td>
                 <td>${Stands}</td>

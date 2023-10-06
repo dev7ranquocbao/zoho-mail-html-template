@@ -5,6 +5,11 @@ import { BadgeIdKey, RecommendationKey, ShowIdKey } from "../constants/keys.js";
 import { saveRcmData } from "../utils/data-saver.js";
 import { makeHTMLTableBodyMXV2023 } from "../utils/table-html.js";
 import { IHTMLTemplate, ParsedQs } from "../databases/types.js";
+import { fileURLToPath } from "url";
+import { dirname } from "path";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 const router = express.Router();
 
@@ -103,6 +108,12 @@ router.get("/mxv-recommendation-list/preview", async (req, res) => {
         logError(error);
         res.status(400).json({ message: error });
     }
+});
+
+router.get("/mxv/ghm", async (_, res) => {
+    res.status(200).type("jpg").sendFile("GHM GROUP_Logo_4c_ohne_slogan.jpg", {
+        root: __dirname,
+    });
 });
 
 export default router;
