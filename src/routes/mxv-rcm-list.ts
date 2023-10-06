@@ -6,7 +6,7 @@ import { saveRcmData } from "../utils/data-saver.js";
 import { makeHTMLTableBodyMXV2023 } from "../utils/table-html.js";
 import { IHTMLTemplate, ParsedQs } from "../databases/types.js";
 import { fileURLToPath } from "url";
-import { dirname } from "path";
+import path, { dirname } from "path";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -111,9 +111,11 @@ router.get("/mxv-recommendation-list/preview", async (req, res) => {
 });
 
 router.get("/mxv/ghm", async (_, res) => {
-    res.status(200).type("jpg").sendFile("GHM GROUP_Logo_4c_ohne_slogan.jpg", {
-        root: __dirname,
-    });
+    res.status(200)
+        .type("jpg")
+        .sendFile(
+            path.join(__dirname, "../assets/GHM GROUP_Logo_4c_ohne_slogan.jpg"),
+        );
 });
 
 export default router;
