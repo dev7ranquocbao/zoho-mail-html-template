@@ -114,7 +114,10 @@ router.get("/mxv/ghm", async (_, res) => {
     res.status(200)
         .type("jpg")
         .sendFile(
-            path.join(__dirname, "../assets/GHM GROUP_Logo_4c_ohne_slogan.jpg"),
+            path.join(
+                __dirname,
+                "../../assets/GHM GROUP_Logo_4c_ohne_slogan.jpg",
+            ),
         );
 });
 
