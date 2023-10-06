@@ -6962,40 +6962,6 @@ export const ExhibitorDataMXV: MXVDataStructureRCM[] = [
     {
         EventEditionName: "METALEX Vietnam VND",
         EventEditionID: "eve-49b5aebd-0180-417d-b112-cb412f3e8097",
-        ExhibitorID: "exh-bb04d8fc-298c-475e-ba81-6fd7193c802d",
-        CompanyName: "NEWTON GMBH",
-        DisplayName: "GHM GROUP",
-        ExhibitorStatus: "ACTIVE",
-        ExhibitorType: "EXHIBITOR",
-        PackageName: "Bronze",
-        Stands: "R02",
-        SortOrderAlias: "NEWTON GMBH",
-        ProfileCompleteness: "100",
-        ExhibitorDetailPageURL:
-            "https://www.metalexvietnam.com/en-gb/for-visitor/exhibitor-list/exhibitor-details.org-6000f756-77a8-41f4-881f-a67c0f48e093.html",
-        Description:
-            "The GHM GROUP is a specialist in measurement technology. Our business unit “Industry” offers sensors for flow, level, pressure, temperature, and liquid analysis, the electronics part of the portfolio comprises analytical measuring technology, safety-related assemblies, automation technology, and indicators. Our business unit “Portable” offers a wide range of portable instruments, sensors, and probes. Our business unit “Environmental” focuses on environmental technology, like weather stations, meteo stations, pyranometers, anemomenters, albedimeters, and microclimate data loggers.",
-        WhyVisitOurStand:
-            "We showcase high-quality measurement technology developed and manufactured in Europe. Our product range covers industrial sensors and electronics, portable instruments, and environmental technology.",
-        Brands: "",
-        PPSCompanyActivity: "Manufacturer",
-        PPSIndustryProfile:
-            "Oil & Gas | Chemical | Automotive | Auto Parts | Electric | Electronic | Automation | Machinery",
-        PPSMachineTechnologyProfile: [
-            "Automation",
-            "Tools and Tooling",
-            "Metrology",
-            "Testing device",
-            "Chemical",
-            "Safety Equipment",
-        ],
-        PPSProductsServicesHighlight:
-            "First Time In Vietnam | Industry 4.0 Technology Supported",
-        ShowId: "MXV23",
-    },
-    {
-        EventEditionName: "METALEX Vietnam VND",
-        EventEditionID: "eve-49b5aebd-0180-417d-b112-cb412f3e8097",
         ExhibitorID: "exh-804c3741-ac3f-45f6-b561-c89fb2f92d2c",
         CompanyName: "HOANG UYEN TECHNOLOGY SOLUTIONS COMMERCE CO., LTD.",
         DisplayName: "HOANG UYEN TECHNOLOGY SOLUTIONS COMMERCE CO., LTD.",

@@ -1,6 +1,5 @@
 import intersectionBy from "lodash/intersectionBy.js";
 import sampleSize from "lodash/sampleSize.js";
-import shuffle from "lodash/shuffle.js";
 
 import { ExhibitorData } from "../databases/exhibitor-sheet.js";
 import { ExhibitorDataMXV } from "../databases/exhibitor-sheet-mxv.js";
@@ -97,17 +96,37 @@ export const makeHTMLTableBodyMXV2023 = (
 
     let trs = "";
 
-    shuffle([fixedExhibitor, ...randomExhibitors]).forEach(
-        (exhibitor, index) => {
-            const { DisplayName, Stands } = exhibitor;
+    [fixedExhibitor, ...randomExhibitors].forEach((exhibitor, index) => {
+        const { DisplayName, Stands } = exhibitor;
 
+        if (DisplayName === fixedExhibitor.DisplayName) {
+            trs += `<tr>
+            <td>${index + 1}</td>
+            <td>
+                <div
+                    style="
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    "
+                >
+                    <span>${DisplayName}</span>
+                    <img
+                        src="../assets/GHM GROUP_Logo_4c_ohne_slogan.jpg"
+                        style="height: 20px"
+                    />
+                </div>
+            </td>
+            <td>${Stands}</td>
+        </tr>`;
+        } else {
             trs += `<tr>
             <td>${index + 1}</td>
             <td>${DisplayName}</td>
             <td>${Stands}</td>
         </tr>`;
-        },
-    );
+        }
+    });
 
     return `<tbody>${trs}</tbody>`;
 };
