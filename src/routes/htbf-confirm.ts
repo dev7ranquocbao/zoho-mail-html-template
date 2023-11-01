@@ -26,7 +26,7 @@ router.get("/htbf/cf", async (req, res) => {
 
         res.status(200).json({
             data:
-                "http://port.rx-vietnamshows.com/htbf/cf/" + query[BadgeIdKey],
+                "https://port.rx-vietnamshows.com/htbf/cf/" + query[BadgeIdKey],
         });
     } catch (error) {
         logError(error);
