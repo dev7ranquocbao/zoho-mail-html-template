@@ -1,5 +1,5 @@
 import express from "express";
-import { logError } from "../utils/logger.js";
+import { logError, logRequest } from "../utils/logger.js";
 import { convertToString } from "../utils/converter.js";
 import { BadgeIdKey, ScanQRImageKey } from "../constants/keys.js";
 import { saveQrData } from "../utils/data-saver.js";
@@ -10,6 +10,7 @@ const router = express.Router();
 router.get("/htbf/cf", async (req, res) => {
     try {
         const query = req.query;
+        logRequest(req);
 
         if (
             typeof query[BadgeIdKey] === "string" &&
