@@ -12,6 +12,8 @@ import rcmMxvSmsRoute from "./routes/rcm-mxv-sms.js";
 import vipPassRoute from "./routes/vip-pass.js";
 import htbfRoute from "./routes/htbf-confirm.js";
 import wrvRcmRoute from "./routes/wrv-rcm-list.js";
+import wrvConfirmRoute from "./routes/wrv-confirm.js";
+import qrWrvRoute from "./routes/qr-confirm-wrv.js";
 import mongodb from "./databases/mongodb.js";
 
 dotenv.config();
@@ -47,6 +49,8 @@ app.use(rcmMxvSmsRoute);
 app.use(vipPassRoute);
 app.use(htbfRoute);
 app.use(wrvRcmRoute);
+app.use(wrvConfirmRoute);
+app.use(qrWrvRoute);
 
 app.get("/api", (_, res) => {
     res.status(200).json({ data: "Welcome 7!" });
