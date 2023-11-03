@@ -26,7 +26,8 @@
     "lint": "eslint . --ext .ts",
     "start:dev": "npx nodemon",
     "build": "rimraf ./dist && tsc",
-    "start": "npm run build && node dist/index.js"
+    "start": "npm run build && node dist/index.js",
+    "server": "rimraf ./dist && tsc && pm2 delete all && pm2 start dist/index.js"
   },
   "devDependencies": {
     "@types/axios": "^0.14.0",
