@@ -23,14 +23,6 @@ router.get("/wrv/cf", async (req, res) => {
                 companyName: convertToString(query["company_name"]),
                 type: query[QrCodeType] === "ind" ? "Individual" : "Group",
             });
-
-            console.log({
-                accountId: query[BadgeIdKey],
-                htmlContent: query[ScanQRImageKey],
-                fullName: convertToString(query["full_name"]),
-                companyName: convertToString(query["company_name"]),
-                type: query[QrCodeType] === "ind" ? "Individual" : "Group",
-            });
         }
 
         res.status(200).json({
