@@ -287,6 +287,22 @@
       "fullName": "Bui Duc Trung",
       "companyName": "Công nghệ và phát triển ATH VietNam",
       "type": "Individual"
+    },
+    {
+      "id": "e972e912-bfae-4bfe-9917-59eda8caa708",
+      "accountId": "baobao",
+      "htmlContent": "123123123",
+      "fullName": "BaoBao",
+      "companyName": "asdasd",
+      "type": "Group"
+    },
+    {
+      "id": "6192ba9c-7ab4-4577-9a39-57712b7f66df",
+      "accountId": "baobaobaobao",
+      "htmlContent": "123123123",
+      "fullName": "BaoBao",
+      "companyName": "asdasd",
+      "type": "Group"
     }
   ]
 }
