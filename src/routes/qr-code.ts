@@ -12,14 +12,17 @@ router.get("/qr-code", async (req, res) => {
         const data = query.data?.toString() || invalidStr;
         const size = query.size?.toString() || defaultSize;
 
-        let imgSrc = "";
-        const qr = await QRCode.toDataURL(data, {
-            type: "image/jpeg",
+        const qrImage = await QRCode.toBuffer(data, {
             width: Number.isNaN(Number(size)) ? 250 : Number(size),
             errorCorrectionLevel: "H",
+            
         });
-        imgSrc = `<image src="${qr}" />`;
-        return res.send(imgSrc);
+
+        // Set response content type to image/png
+        res.set("Content-Type", "image/png");
+
+        // Send QR code image as response
+        res.send(qrImage);
     } catch (error) {
         logError(error);
         res.status(400).json({ message: error });
