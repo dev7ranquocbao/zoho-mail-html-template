@@ -35,12 +35,13 @@ const _convertRCMTemplate = (
         cloned = cloned.replace(regex, value);
     });
 
-    const rcmVariables = query[RecommendationKey];
+    const rcmVariables = query[RecommendationKey]; // ["AI" , "Machine learning", ...]
     const showId = query[ShowIdKey];
 
     const keywords =
         typeof rcmVariables === "string" ? rcmVariables.split(",") : [];
 
+    // html 9 rows in rcm_list
     const tbody = makeHTMLTableBodyMXV2023(
         showId === "MXV23" ? "MXV23" : "NEVHCM23",
         keywords,
@@ -55,7 +56,7 @@ const _convertRCMTemplate = (
 router.get("/wrv/rc", async (req, res) => {
     try {
         logRequest(req);
-        await mainDb.read();
+        await mainDb.read(); // HTML -> Table layout with 10 rows
 
         const query = req.query;
 

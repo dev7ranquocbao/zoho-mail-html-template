@@ -96,6 +96,7 @@ export const makeHTMLTableBodyMXV2023 = (
 
     let trs = "";
 
+    // random 9 items under recommendation_list
     [fixedExhibitor, ...randomExhibitors].forEach((exhibitor, index) => {
         const { DisplayName, Stands } = exhibitor;
 
